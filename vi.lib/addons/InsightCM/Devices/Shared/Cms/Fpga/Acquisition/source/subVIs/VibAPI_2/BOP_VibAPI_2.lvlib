@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="ACDC_Config.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/ACDC_Config.vi"/>
 	<Item Name="ACDC_Config_9234.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/ACDC_Config_9234.vi"/>
+	<Item Name="ACDC_Config_9239.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/ACDC_Config_9239.vi"/>
 	<Item Name="OC_SC_Detection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/OC_SC_Detection.vi"/>
 	<Item Name="ReadData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/ReadData.vi"/>
 	<Item Name="ReadData_9234.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/Fpga/Acquisition/source/subVIs/VibAPI_2/ReadData_9234.vi"/>
