@@ -1,0 +1,7 @@
+[modGen]
+version        = 7
+specifyComponent = ErrModGen/niFpgaSpecifyComponent_AnalysisErr.vi
+emitCode = ErrModGen/niFpgaEmitCode_AnalysisErr.vi
+
+[dfir]
+specify	= ErrModGen/niFpgaDFIRSpecify_AnalysisErr.vi

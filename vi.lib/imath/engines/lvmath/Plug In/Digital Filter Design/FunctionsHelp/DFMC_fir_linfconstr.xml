@@ -1,0 +1,75 @@
+
+
+<Function>
+
+<help_tag>DFMC_fir_linfconstr.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>fir_linfconstr</name>
+
+<Description>
+
+fir_linfconstr (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+b = fir_linfconstr(n, f, mag, w, c) 
+b = fir_linfconstr(n, f, mag, w, c, t) 
+b = fir_linfconstr(n, f, mag, ftype) 
+b = fir_linfconstr(n, f, mag, ftype, t) 
+
+Legacy Name: fircband 
+ 
+Description
+Designs a finite impulse response (FIR) filter with constraints in the frequency bands by using the minimax principle. The FIR filter minimizes the maximum error between the target frequency response and the designed filter frequency response. You can use this function to design the following FIR filters: types I-IV linear phase, minimum and maximum phase, ripple constraint, single-point band, exact gain control, and arbitrary shape. 
+
+Inputs 
+n - Specifies the order of the filter. n is a nonnegative integer. 
+f - Specifies the frequency points. f is a vector whose values increase monotonically between 0 and 1. 
+mag - Specifies the magnitude response of the filter at f. mag is a vector with the same length as f. 
+w - Specifies the weight of each frequency band. w is a vector whose length must equal length(f)/2. 
+c - Specifies whether each element of w is a weight or a ripple constraint of a frequency band. c is a string of the same length as w that accepts a combination of the following values: 
+ 'w': Denotes that the corresponding element in w is a weight of the frequency band. 
+ 'c': Denotes that the corresponding element in w is a ripple constraint of the frequency band. 
+t - Specifies the type of filter that this function creates. t is a string that accepts the following values: 
+ 'sym' (default): Designs a symmetric filter. 
+ 'antisym': Designs an antisymmetric filter. 
+ 'minphase': Designs a minimum phase filter. 
+ 'maxphase': Designs a maximum phase filter. 
+ftype - Specifies the type of each frequency point in f. ftype is a string of the same length as f that accepts a combination of the following values: 
+ 'n': Denotes a regular frequency point. 
+ 's': Denotes a single-point band. 
+ 'e': Denotes a frequency point with an exact gain. 
+
+Outputs 
+b - Returns the coefficients of the designed FIR filter. b is a real vector with a length of n+1. 
+
+Examples
+B = fir_linfconstr(22, [0, 0.4, 0.5, 0.7, 0.8, 1], [1, 1, 0, 0, 1, 1], [0.05, 1, 0.1], 'cwc'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linfconstr(42, [0, 0.2, 0.25, 0.3, 0.5, 0.55, 0.6, 1], [1, 1, 0, 1, 1, 0, 1, 1], 'nnsnnsnn'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linfconstr(82, [0, 0.0055, 0.03, 0.1, 0.15, 1], [0, 0, 0, 0, 1, 1], 'nnennn'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linfconstr(12, [0, 0.4, 0.5, 1], [1, 1, 0, 0], [1, 1], 'ww', 'minphase'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+figure; 
+zplane(B, 1); 
+
+Related Topics
+fir_linf 
+
+</Description></Function>

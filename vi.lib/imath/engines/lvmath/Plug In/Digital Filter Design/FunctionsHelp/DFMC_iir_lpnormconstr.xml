@@ -1,0 +1,65 @@
+
+
+<Function>
+
+<help_tag>DFMC_iir_lpnormconstr.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>iir_lpnormconstr</name>
+
+<Description>
+
+iir_lpnormconstr (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+[b, a] = iir_lpnormconstr(n, d, f, e, mag) 
+[b, a] = iir_lpnormconstr(n, d, f, e, mag, w) 
+[b, a] = iir_lpnormconstr(n, d, f, e, mag, w, r) 
+[b, a] = iir_lpnormconstr(n, d, f, e, mag, w, r, p) 
+[b, a, err, sos, gain] = iir_lpnormconstr(n, d, f, e, mag) 
+[b, a, err, sos, gain] = iir_lpnormconstr(n, d, f, e, mag, w) 
+[b, a, err, sos, gain] = iir_lpnormconstr(n, d, f, e, mag, w, r) 
+[b, a, err, sos, gain] = iir_lpnormconstr(n, d, f, e, mag, w, r, p) 
+
+Legacy Name: iirlpnormc 
+ 
+Description
+Designs an infinite impulse response (IIR) filter that uses the least p-th norm algorithm to approximate the frequency response you specify. You can specify a pole radius constraint for the IIR filter. 
+
+Inputs 
+n - Specifies the order of the numerator. n is a nonnegative integer. 
+d - Specifies the order of the denominator. d is a nonnegative integer. 
+f - Specifies the frequency points. f is a vector whose values increase monotonically between 0 and 1. 
+e - Specifies the band edge frequencies. e is a vector whose values must also exist in f. 
+mag - Specifies the magnitude response of the filter at f. mag is a vector of the same length as f. 
+w - Specifies the weight of each frequency point. w is a vector of the same length as f. The default is a vector in which each element has a value of 1. 
+r - Specifies the maximum value of the radius of any filter pole. r is a double-precision, floating-point number that must fall in the range (0, 1). The default is 0.9999. 
+p - Specifies the value of p to use in the least p-th norm algorithm. p is a positive integer that must fall in the range [1, 128]. The default is 128. 
+
+Outputs 
+b - Returns the numerator of the designed IIR filter. b is a real vector with a length of n+1. 
+a - Returns the denominator of the designed IIR filter. a is a real vector with a length of d+1. 
+err - Returns the least p-th norm approximation error. err is a real number. 
+sos - Returns the second-order sections representation of the designed IIR filter. sos is an L-by-6 matrix, where L is the number of rows of the matrix. Each row of sos contains the coefficients of one filter section in the form [b0 b1 b2 1 a1 a2]. 
+gain - Returns the gain of the designed IIR filter. gain is a real number. 
+
+Examples
+[B, A] = iir_lpnormconstr(8, 8, [0, 0.2, 0.5, 0.6, 1], [0, 0.5, 0.6, 1], [1, 2, 1, 0, 0], [1, 1, 1, 1, 1], 0.9); 
+fft_mag = abs(fft(B, 16384)./fft(A, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+[B, A] = iir_lpnormconstr(6, 6, [0, 0.5, 0.6, 1], [0, 0.5, 0.6, 1], [1, 1, 0, 0], [1, 1, 1, 1], 0.9, 12); 
+figure; 
+freqzd(B, A); 
+figure; 
+zplane(B, A); 
+
+Related Topics
+fir_lpnorm 
+iir_lpnorm 
+
+</Description></Function>

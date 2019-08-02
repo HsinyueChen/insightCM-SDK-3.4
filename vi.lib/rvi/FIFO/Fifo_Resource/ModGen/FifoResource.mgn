@@ -1,0 +1,4 @@
+[modGen]
+version = 7
+specifyComponent = niFpgaFifoResourceGetModInfo.vi
+emitCode = niFpgaFifoResourceEmitCode.vi

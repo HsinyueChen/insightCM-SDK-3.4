@@ -1,0 +1,162 @@
+[
+	{
+		"name": "AcquisitionProcess.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "Alarm.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "AlarmEvent.Level1",
+		"enabled": false
+	},
+	{
+		"name": "Controller.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "DataAccumulator.BufferSize",
+		"enabled": false
+	},
+	{
+		"name": "DataAccumulator.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "DataExplorerHelper.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "DeviceHealth.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "FPGABitfileManager.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "FileControllerEvent.Level1",
+		"enabled": false
+	},
+	{
+		"name": "FileManager.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "FpgaAcquisition923x.DataRate",
+		"enabled": false
+	},
+	{
+		"name": "FpgaAcquisition923x.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "FpgaAcquisition923x.SampleRate",
+		"enabled": false
+	},
+	{
+		"name": "LoopState",
+		"enabled": false
+	},
+	{
+		"name": "ModbusMaster.Level1",
+		"enabled": false
+	},
+	{
+		"name": "ModbusMaster.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "ScanEngine.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "ServerComm.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "ServerComm.Provisioning",
+		"enabled": true
+	},
+	{
+		"name": "ServerComm.TcpError",
+		"enabled": true
+	},
+	{
+		"name": "ServerComm_SendData.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "ServerComm_TcpReader.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "SinglePointClock.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "SystemEvent.Level1",
+		"enabled": true
+	},
+	{
+		"name": "SystemEvent.Level2",
+		"enabled": false
+	},
+	{
+		"name": "TagPublish.Level1",
+		"enabled": false
+	},
+	{
+		"name": "TagPublish.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "TdmsCreator.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "TemplateEvent.Level1",
+		"enabled": false
+	},
+	{
+		"name": "TestPanel.Level1",
+		"enabled": false
+	},
+	{
+		"name": "TestPanel.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "TracePointDisplay.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "TracePointSynchonizer.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "Trigger.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "USBDrive.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "USBEvent.Level1",
+		"enabled": false
+	},
+	{
+		"name": "VibrationAnalysis.LoopState",
+		"enabled": false
+	},
+	{
+		"name": "VibrationAnalysis.LowSpeedWarning",
+		"enabled": false
+	},
+	{
+		"name": "VibrationVirtualChannel.LoopState",
+		"enabled": false
+	}
+]

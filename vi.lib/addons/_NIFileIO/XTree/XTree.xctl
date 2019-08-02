@@ -1,0 +1,110 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="All Channels" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">All Channels</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns all channels currently represented in the tree.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">All Channels</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="All Channels Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/All Channels/All Channels Read.vi"/>
+		</Item>
+		<Item Name="File/Directory Path" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Data Directory</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">The file or directory from which to read data.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">File/Directory Path</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="File Directory Path Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/File Directory Path/File Directory Path Read.vi"/>
+			<Item Name="File Directory Path Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/File Directory Path/File Directory Path Write.vi"/>
+		</Item>
+		<Item Name="Hide Undefined Channels?" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Hide Undefined Channels</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Hide channels which are missing any of the properties specified in the hierarchy.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Hide Undefined Channels?</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Hide Undefined Channels Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Hide Undefined Channels/Hide Undefined Channels Read.vi"/>
+			<Item Name="Hide Undefined Channels Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Hide Undefined Channels/Hide Undefined Channels Write.vi"/>
+		</Item>
+		<Item Name="Hierarchy" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Hierarchy</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Properties by which to organize the tree hierarchy. "ChannelName" must always be the last item in the hierarchy. "GroupName" and "FileName" are allowed in addition to any tdms file, group, or channel property.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Hierarchy</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Hierarchy Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Hierarchy/Hierarchy Read.vi"/>
+			<Item Name="Hierarchy Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Hierarchy/Hierarchy Write.vi"/>
+		</Item>
+		<Item Name="Selected Channel" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Selected Channel</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Gets the channel info from whatever is selected in the tree. If something at a higher level in the hierarchy than channels is selected, all of the channels underneath will be given.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Selected Channel</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Selected Channel Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Selected Channel/Selected Channel Read.vi"/>
+		</Item>
+		<Item Name="Static File Structure?" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Static File Structure</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">If all files within the specified data directory and time filter have the same structure (groups and channels), this can be enabled to speed up tree population and other functions. If this is enabled, "FileName" is not allowed in the hierarchy.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Static File Structure?</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Static File Structure Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Static File Structure/Static File Structure Read.vi"/>
+			<Item Name="Static File Structure Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Properties/Static File Structure/Static File Structure Write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Request Channel.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Request Channel.vi"/>
+		<Item Name="Populate Tree.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Populate Tree.vi"/>
+		<Item Name="Empty Tree.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Empty Tree.vi"/>
+		<Item Name="Enable Time Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Enable Time Filtering.vi"/>
+		<Item Name="Disable Time Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Disable Time Filtering.vi"/>
+		<Item Name="Enable Channel Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Enable Channel Filtering.vi"/>
+		<Item Name="Disable Channel Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Disable Channel Filtering.vi"/>
+		<Item Name="Enable Group Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Enable Group Filtering.vi"/>
+		<Item Name="Disable Group Filtering.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Methods/Disable Group Filtering.vi"/>
+	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Filter Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Controls/Filter Mode.ctl"/>
+		<Item Name="Filter Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Controls/Filter Settings.ctl"/>
+		<Item Name="Tree Selection Data.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Controls/Tree Selection Data.ctl"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add File to Tree.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Add File to Tree.vi"/>
+		<Item Name="Add Leaves.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Add Leaves.vi"/>
+		<Item Name="Add Tree Level.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Add Tree Level.vi"/>
+		<Item Name="Add Tree Location.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Add Tree Location.vi"/>
+		<Item Name="Constants.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Constants.vi"/>
+		<Item Name="Format Properties Table.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Format Properties Table.vi"/>
+		<Item Name="Get Channel Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Get Channel Data.vi"/>
+		<Item Name="Get Channels Array.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Get Channels Array.vi"/>
+		<Item Name="Get Tree Children.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Get Tree Children.vi"/>
+		<Item Name="Match Array of Patterns.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Match Array of Patterns.vi"/>
+		<Item Name="Merge Errors with Paths.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Merge Errors with Paths.vi"/>
+		<Item Name="Time Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Time Filter.vi"/>
+		<Item Name="Match Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/SubVIs/Match Pattern.vi"/>
+	</Item>
+	<Item Name="Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_NIFileIO/XTree/State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+</XControl>

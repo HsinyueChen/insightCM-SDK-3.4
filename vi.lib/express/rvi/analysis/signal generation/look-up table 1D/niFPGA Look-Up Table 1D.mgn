@@ -1,0 +1,4 @@
+[modGen]
+version = 7
+specifyComponent = ../../../../../rvi/Analysis/signal gen/LUT 1D/modGen/niFpgaLUT1dSpecifyComponent.vi
+emitCode = ../../../../../rvi/Analysis/signal gen/LUT 1D/modGen/niFpgaLUT1dEmitCode.vi

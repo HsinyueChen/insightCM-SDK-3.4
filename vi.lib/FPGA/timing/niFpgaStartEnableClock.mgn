@@ -1,0 +1,7 @@
+[modGen]
+version = 7
+specifyComponent = .\..\..\..\resource\rvi\TimingControlModGens\Resholder\niFpgaClkEnableDisable_SpecifyComponent.vi
+emitCode = .\..\..\..\resource\rvi\TimingControlModGens\Resholder\niFpgaClkEnableDisable_EmitCode.vi
+
+[dfir]
+specify = .\..\..\..\resource\rvi\TimingControlModGens\Resholder\niFpgaClkEnableDisable_SpecifyDFIR.vi

@@ -1,0 +1,4 @@
+[modGen]
+version        = 7
+specifyComponent       = ../modGen/niFpgaDsp48eGetModInfo.vi
+emitCode       = ../modGen/niFpgaDsp48eEmitCode.vi

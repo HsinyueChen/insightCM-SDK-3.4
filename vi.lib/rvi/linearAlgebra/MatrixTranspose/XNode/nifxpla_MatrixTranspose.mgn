@@ -1,0 +1,4 @@
+[modGen]
+version=7
+specifyComponent = ../modGen/nifxpla_MatrixTransposeSpecifyComponent.vi
+emitCode         = ../modGen/nifxpla_MatrixTransposeEmitCode.vi

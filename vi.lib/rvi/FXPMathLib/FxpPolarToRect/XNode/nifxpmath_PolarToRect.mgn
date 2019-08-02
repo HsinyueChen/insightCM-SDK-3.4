@@ -1,0 +1,5 @@
+[modGen]
+version=6
+modInfo        = ../modGen/nifxpmath_PolarToRect_ModInfo.vi
+Instantiation  = ../modGen/nifxpmath_PolarToRect_Instantiation.vi
+declaration    = <none>

@@ -1,0 +1,4 @@
+[modGen]
+version = 7
+emitCode = niFPGA 32-Bit Cast Emit Code.vi
+specifyComponent = niFPGA 32-Bit Cast Specify Component.vi

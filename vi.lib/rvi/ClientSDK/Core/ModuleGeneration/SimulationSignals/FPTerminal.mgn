@@ -1,0 +1,5 @@
+[modGen]
+version = 7
+simulationSignals = niFpgaSimulationSignals_FPTerminal.vi
+specifyComponent = niFpgaSpecifyComponent_FPTerminal.vi
+emitCode = niFpgaEmitCode_FPTerminal.vi

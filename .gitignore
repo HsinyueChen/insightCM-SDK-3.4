@@ -1,0 +1,7 @@
+*.aliases
+*.lvlps
+*.mnu
+/*
+!.gitignore
+!/InsightCM/
+!/vi.lib/

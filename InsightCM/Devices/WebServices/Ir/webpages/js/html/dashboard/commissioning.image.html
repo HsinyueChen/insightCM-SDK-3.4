@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<script src="/commissioning/libs/angular/angular.min.js" ></script>
+<script src="/commissioning/libs/jquery/jquery-1.11.1.min.js" ></script>
+<body>
+
+
+<div id="imageCapture" ng-app="appCapture" ng-controller="formCapture">
+    <form novalidate>
+        Camera Serial Number:<br>
+        <input type="text" ng-model="sn"><br>
+        <button ng-click="capture()">Capture</button>
+    </form>
+</div>
+
+
+<script>
+    var app = angular.module('appCapture', []);
+    app.controller('formCapture', function($scope, $http) {
+        $scope.capture = function() {
+            var url = '/commissioning/cameraImage.jpg';
+            console.log("url = " + url);
+
+            $http.get(url, {
+                params: {
+                    cameraSN: $scope.sn
+                }
+            }).success(function(data) {
+
+                var existing = $('#capturedImage').remove();
+
+                var div = $('#imageCapture');
+                var img = $('<img>');
+                div.append('<img id="capturedImage" src="data:image/jpg;base64,' + data + '" alt="no image found"></img>')
+
+            }).error(function(data) {
+                toastr.error("Could not retrieve image.")
+            });
+        };
+    });
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+[modGen]
+version=6
+modInfo        = ../modGen/nifxpmath_NaturalLogarithm_ModInfo.vi
+instantiation  = ../modGen/nifxpmath_NaturalLogarithm_Instantiation.vi
+declaration    = <none>

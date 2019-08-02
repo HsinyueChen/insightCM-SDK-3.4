@@ -1,0 +1,4 @@
+[modGen]
+version=7
+specifyComponent = ../modGen/nifxpla_MatrixMultiply_SpecifyComponent.vi
+emitCode         = ../modGen/nifxpla_MatrixMultiply_EmitCode.vi

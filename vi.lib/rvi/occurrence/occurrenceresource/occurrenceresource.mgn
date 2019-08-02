@@ -1,0 +1,4 @@
+[modGen]
+version=7
+emitCode = occurrenceresource_Implementation.vi
+specifyComponent = occurrenceresource_ModInfo.vi

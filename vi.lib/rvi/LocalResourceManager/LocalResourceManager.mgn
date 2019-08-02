@@ -1,0 +1,7 @@
+[modGen]
+version  = 7
+specifyComponent = LRM_ModGen\niFpgaSpecifyComponent_LocalResourceManager.vi
+emitCode = LRM_ModGen\niFpgaEmitCode_LocalResourceManager.vi
+
+[dfir]
+specify = LRM_ModGen\DFIR\niFpgaDfirSpecify_LocalResourceManager.vi

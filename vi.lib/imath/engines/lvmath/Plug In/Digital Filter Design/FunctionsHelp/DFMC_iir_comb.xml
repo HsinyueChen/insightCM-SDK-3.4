@@ -1,0 +1,55 @@
+
+
+<Function>
+
+<help_tag>DFMC_iir_comb.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>iir_comb</name>
+
+<Description>
+
+iir_comb (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+[b, a] = iir_comb(n, bw) 
+[b, a] = iir_comb(n, bw, ab) 
+[b, a] = iir_comb(n, bw, t) 
+[b, a] = iir_comb(n, bw, ab, t) 
+
+Legacy Name: iircomb 
+ 
+Description
+Designs an infinite impulse response (IIR) comb filter. 
+
+Inputs 
+n - Specifies the order of the filter. n is a positive integer. 
+bw - Specifies the bandwidth of the filter notch or peak at -ab dB. bw is a double-precision, floating-point number that must fall in the range (0, 2/n). 
+ab - Specifies the attenuation, in decibels, that corresponds to the bandwidth bw. ab is a double-precision, floating-point number greater than zero. The default is 3.0103, which corresponds to a 3 dB bandwidth, a commonly used bandwidth for a filter. 
+t - Specifies the type of IIR comb filter you want to design. t is a string that accepts the following values: 
+ 'notch' (default): Designs a comb notch filter. 
+ 'peak': Designs a comb peak filter. 
+
+Outputs 
+b - Returns the numerator of the designed IIR filter. b is a real vector with a length of n+1. 
+a - Returns the denominator of the designed IIR filter. a is a real vector with a length of n+1. 
+
+Examples
+[B, A] = iir_comb(10, 0.001, 3.0103); 
+fft_mag = abs(fft(B, 16384)./fft(A, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+[B, A] = iir_comb(10, 0.001, 3.0103, 'peak'); 
+fft_mag = abs(fft(B, 16384)./fft(A, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+
+Related Topics
+iir_notch 
+iir_peak 
+
+</Description></Function>

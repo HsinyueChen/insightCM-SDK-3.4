@@ -1,0 +1,5 @@
+[modGen]
+version = 7
+
+[dfir]
+emit = ../modGen/niFpgaNotchEmitDFIR.vi

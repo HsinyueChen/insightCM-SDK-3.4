@@ -1,0 +1,1 @@
+The presence of this file “StopSync.txt” prevents palette auto synchronization with its parent folder.

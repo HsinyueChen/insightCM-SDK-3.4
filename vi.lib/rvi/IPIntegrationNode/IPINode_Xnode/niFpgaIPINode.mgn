@@ -1,0 +1,8 @@
+[modGen]
+version        = 7
+specifyComponent       = ../IPINode_ModGen/niFpgaIPINodeGetModInfo.vi
+emitCode       = ../IPINode_ModGen/niFpgaIPINodeEmitCode.vi
+simulationSignals = ../IPINode_ModGen/niFpgaIPINodeSimulationSignals.vi
+
+[dfir]
+specify = ../IPINode_ModGen/niFpgaIPINodeSpecifyDFIR.vi

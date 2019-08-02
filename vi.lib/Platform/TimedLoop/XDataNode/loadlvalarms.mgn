@@ -1,0 +1,4 @@
+[modGen]
+version=3
+modInfo        = modGen/loadlvalarms_ModInfo.vi
+implementation = modGen/loadlvalarms_Implementation.vi

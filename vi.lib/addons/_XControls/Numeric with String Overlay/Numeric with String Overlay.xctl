@@ -1,0 +1,80 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 2</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Font Size" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Font Size</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to write/read the font size for both the numeric text and the invalid text.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Font Size</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Font Size Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Font Size Read.vi"/>
+			<Item Name="Font Size Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Font Size Write.vi"/>
+		</Item>
+		<Item Name="Invalid Text" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Overlay Text</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to write/read the text used when the numeric value is not within any of the valid ranges.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Invalid Text</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Invalid Text Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Invalid Text Read.vi"/>
+			<Item Name="Invalid Text Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Invalid Text Write.vi"/>
+		</Item>
+		<Item Name="Invalid Text Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Text Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to write/read the color of the invalid text. </Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Invalid Text Color</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Invalid Text Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Invalid Text Color Read.vi"/>
+			<Item Name="Invalid Text Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Invalid Text Color Write.vi"/>
+		</Item>
+		<Item Name="Numeric (Valid) Range" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Overlay Ranges</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to write/read the array of ranges used to define valid numeric values. </Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Numeric (Valid) Range</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Valid Range Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Valid Range Read.vi"/>
+			<Item Name="Valid Range Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Valid Range Write.vi"/>
+		</Item>
+		<Item Name="Numeric Format String" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Numeric Format String</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to explicitly set the display format for the numeric display.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Numeric Format String</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Numeric Format String Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Numeric Format String Read.vi"/>
+			<Item Name="Numeric Format String Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Numeric Format String Write.vi"/>
+		</Item>
+		<Item Name="Numeric Text Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Numeric Text Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Use this property to write/read the color of the numeric display text.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Numeric Text Color</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Numeric Text Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Numeric Text Color Read.vi"/>
+			<Item Name="Numeric Text Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Properties/Numeric Text Color Write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Numeric with String Overlay/State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+</XControl>

@@ -1,0 +1,214 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Use this XControl to display magnitudes or phases of one or multiple channels of spectral data. This control displays the spectra on a graph and supports interactive data cursors. This XControl can be combined with other XControls to develop sophisticated user interfaces with minimal programming.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,,!!!*Q(C=T:5\&lt;NN!%):`"A[1VD&gt;)6*JOB+H3[QB5'P@D)QDKB##&amp;LD"8]"6UB5&amp;OI#OI*.)J(Z?LBZ]K%A@:Z6$E0TMT(X?8F&amp;4;*_F+_UN.&lt;\&lt;X^`&gt;^W`&gt;.@^;72W`@$`YH)@U3:4RU\O^0`E.\Z/]OR*`]\&lt;0YJF(4K2FD(M?X.&lt;Y\SX]?8`R^&gt;`"X,^:`\.?4_M5Z(+`%H`T&gt;[(];@WC$@ZT@]XA=^X@&gt;@$[`I^VX`@,GG+!N[T/&gt;T[@T[&lt;3D=^5M&lt;]L3E,UN]8X4NGX@NMUNJ^OW8:[N:P'0K9:"@@`N6X0C'`S8^M=`]Z&gt;XY82[\D_?N(]Z`HD`MP^3`!8`+`S88_`6R5(PX(B`REH&gt;\R-,T$%L4\&gt;0^%20^%20^%10^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;"PG=ODI1B?[L-RP5DQJF#2.%C3$16&amp;S3HA3HI1HY?&amp;7#5`#E`!E0!E01Z4Q*$Q*4]+4]"#GB#@B38A3HI3(6)5E3U?(*_%BP1+?A#@A#8A#(EIKY!E!AG*"YC!*'!K=Q58!%`!%0&amp;QKY!FY!J[!*_$"L9!HY!FY!J[!BZ!S+V&amp;IBIY/$WHE]$A]$I`$Y`#17A[0Q_0Q/$Q/$_8E]$A]$I24U%E/AJQA:Y"TY`!Y00T)Y8&amp;Y("[(R_("66&lt;)S]Q-.%.(B]@A-8A-(I0(Y#'&amp;$"[$R_!R?!Q?UMLA-8A-(I0(Y+'5$"[$R_!R1)SCF*?2T!AU"BG#Q=.2&gt;IO669J#9K886X0=K+I&lt;5(6DK7Y9V9WAOM#K#[?[)+I4L4K"KB/D_M#K$[)+K&amp;J9.;(K1/UY&lt;\%.^I#NM15WRW&lt;9",M?1P`SQ.VOJ_VWK]VGIY?("[X8;SU7#`&amp;@INFMJMFEIOPL[_08[D.^&lt;-XBO\4C_E`M_]@6WW/_`GR78[[;V@4(_$M9_PB&gt;_B__D@JQ`I=TT.&amp;P1\TBG!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">14.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XCtl.OptimizeDataUpdate" Type="Bool">true</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Property Name="NI_IconEditor" Type="Str">49 48 48 49 56 48 48 52 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 43 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 191 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 239 239 222 239 239 222 214 214 198 247 239 231 239 239 231 239 239 198 239 239 222 239 239 231 239 239 222 239 239 222 239 239 231 239 239 222 239 239 231 239 239 222 239 239 231 239 239 231 239 239 231 239 239 214 123 156 189 239 247 239 247 247 247 247 247 239 247 247 239 247 247 239 247 247 239 247 247 239 247 247 239 247 247 239 231 239 239 222 222 222 0 0 0 0 0 0 239 239 222 231 231 214 255 255 247 255 247 239 255 255 247 255 247 231 255 247 239 255 255 247 255 247 239 247 239 239 255 255 247 255 247 231 255 255 247 255 247 239 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 222 222 222 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 239 247 255 214 222 231 0 0 0 0 0 0 239 239 222 239 231 214 255 255 247 255 247 239 255 255 247 255 247 231 255 247 239 255 255 247 255 247 239 239 231 239 255 255 247 255 247 231 255 255 247 255 247 239 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 222 222 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 239 247 255 214 222 231 0 0 0 0 0 0 239 239 222 239 231 214 255 255 247 255 247 247 255 255 247 255 247 231 255 247 239 255 255 247 255 247 239 132 132 231 255 255 247 255 247 239 255 255 247 255 247 239 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 222 222 222 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 239 247 255 214 222 231 0 0 0 0 0 0 239 239 222 231 231 214 255 255 247 255 247 231 255 255 247 255 247 231 255 247 239 255 255 247 255 247 239 132 132 231 255 255 247 255 247 231 255 255 247 255 247 239 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 214 214 214 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 239 247 255 214 222 231 0 0 0 0 0 0 239 231 214 231 222 206 255 255 247 255 239 231 255 255 247 255 231 214 255 231 214 255 247 247 255 239 222 132 132 231 255 255 247 255 231 214 255 255 255 255 231 222 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 222 222 222 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 239 247 255 214 222 231 0 0 0 0 0 0 206 206 189 231 231 214 255 255 247 255 247 239 255 255 247 255 247 231 247 239 239 255 255 247 132 132 231 132 132 231 255 255 247 255 247 239 255 255 247 255 247 239 255 255 247 255 255 247 255 255 247 239 231 214 123 156 189 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 239 247 255 214 222 231 0 0 0 0 0 0 206 206 189 222 222 206 255 255 247 255 247 239 255 255 247 247 239 231 132 132 231 255 255 247 132 132 231 132 132 231 255 255 247 255 247 231 255 255 247 255 247 239 255 255 247 132 132 231 255 255 247 239 231 214 123 156 189 222 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 239 247 255 214 222 231 0 0 0 0 0 0 231 231 214 239 231 214 255 255 247 247 239 239 255 255 247 239 231 231 132 132 231 255 255 247 132 132 231 132 132 231 255 255 247 255 247 231 255 255 247 255 247 239 255 255 247 132 132 231 255 255 247 239 231 214 123 156 189 247 247 247 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 239 247 255 214 222 231 0 0 0 0 0 0 239 239 222 231 231 214 255 255 247 132 132 231 255 255 247 132 132 231 132 132 231 255 255 247 132 132 231 132 132 231 255 255 247 132 132 231 255 255 247 247 239 239 255 255 247 132 132 231 239 239 247 239 239 214 123 156 189 222 222 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 239 247 255 214 222 231 0 0 0 0 0 0 239 239 222 231 231 214 255 255 247 132 132 231 255 255 247 132 132 231 132 132 231 239 239 247 132 132 231 132 132 231 247 247 247 132 132 231 255 255 255 132 132 231 255 255 247 132 132 231 247 247 247 239 239 214 123 156 189 214 222 222 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 239 247 255 206 222 231 0 0 0 0 0 0 239 239 222 239 231 214 255 255 247 132 132 231 132 132 231 132 132 231 132 132 231 132 132 231 132 132 231 132 132 231 132 132 231 132 132 231 255 255 247 132 132 231 247 239 247 132 132 231 231 222 247 239 239 214 123 156 189 255 255 255 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 231 231 231 255 255 255 255 255 255 247 247 247 231 231 231 0 0 0 0 0 0 239 239 222 222 222 206 132 132 231 132 132 231 140 140 231 132 0 214 140 107 214 132 132 231 132 132 214 173 132 222 132 132 214 132 107 214 132 99 214 140 107 214 132 90 206 140 0 198 132 132 231 247 231 214 123 156 189 214 198 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 231 247 206 198 198 0 0 0 0 0 0 239 239 222 222 222 206 198 198 189 181 156 222 165 148 222 173 140 222 181 156 214 156 140 222 181 156 214 181 165 214 173 156 231 181 156 222 173 156 231 181 156 214 156 140 222 165 132 198 181 165 222 247 247 222 123 156 189 189 206 231 247 247 239 247 247 239 247 247 239 239 239 239 239 239 239 239 239 239 239 247 239 231 239 239 198 214 222 239 231 214 0 0 0 0 0 0 239 239 222 239 239 222 231 222 206 247 247 222 206 206 181 198 198 198 206 206 181 239 231 206 214 214 189 222 222 198 239 239 206 198 198 173 231 231 206 222 222 198 206 206 181 222 222 132 222 222 198 214 214 198 123 156 189 247 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 239 239 214 0 0 0 0 0 0 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 247 239 222 206 206 189 198 198 181 214 214 198 214 214 198 247 239 222 239 239 222 231 231 214 165 165 148 189 181 173 247 247 222 123 156 189 239 239 214 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 239 239 222 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 255 255 255 255 255 255 249 39 255 255 255 255 255 255 249 39 255 255 255 255 255 251 249 39 255 255 255 255 255 255 249 39 255 255 255 255 255 255 249 39 255 251 255 255 255 255 241 39 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 57 206 1 128 33 4 1 128 49 132 1 128 33 4 1 128 33 4 1 128 0 0 1 255 255 255 255 0 0 0 13 77 101 114 103 101 100 32 76 97 121 101 114 115 100 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
+
+</Property>
+	<Item Name="Controls" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Data.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+		<Item Name="State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/State.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="Cursor Positions.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Cursor Positions.ctl"/>
+		<Item Name="Measurement Cursor Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Measurement Cursor Configuration.ctl"/>
+		<Item Name="Refnums Typedef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Refnums Typedef.ctl"/>
+		<Item Name="Spectrum XControl Events.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Spectrum XControl Events.ctl"/>
+		<Item Name="Spectrum XControl User Event.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Controls/Spectrum XControl User Event.ctl"/>
+	</Item>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Harmonic.X Reference" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Harmonic.X Reference</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursors:Harmonic:1X Reference</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Harmonic X Reference.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Harmonic X Reference.vi"/>
+			<Item Name="Write Harmonic X Reference.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Harmonic X Reference.vi"/>
+		</Item>
+		<Item Name="Graph.XScale.Label.Text" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Graph.XScale.Label</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">XScale:Label.Text</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Graph XScale Label.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Graph XScale Label.vi"/>
+			<Item Name="Write Graph XScale Label.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Graph XScale Label.vi"/>
+		</Item>
+		<Item Name="Graph.YScale.Label.Text" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Graph.YScale.Label</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">YScale:Label.Text</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Graph YScale Label.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Graph YScale Label.vi"/>
+			<Item Name="Write Graph YScale Label.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Graph YScale Label.vi"/>
+		</Item>
+		<Item Name="Graph.XScale.Label.Visible" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Graph.XScale.Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">XScale:Label.Visible</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Graph XScale Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Graph XScale Visible.vi"/>
+			<Item Name="Write Graph XScale Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Graph XScale Visible.vi"/>
+		</Item>
+		<Item Name="Graph.YScale.Label.Visible" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Graph.YScale.Label.Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">YScale:Label.Visible</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Graph YScale Label Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Graph YScale Label Visible.vi"/>
+			<Item Name="Write Graph YScale Label Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Graph YScale Label Visible.vi"/>
+		</Item>
+		<Item Name="Cursor Positions" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor Positions</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursors:All</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Cursor Positions.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Cursor Positions.vi"/>
+		</Item>
+		<Item Name="Background Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Background Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Colors:Background</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Background Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Background Color.vi"/>
+			<Item Name="Write Background Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Background Color.vi"/>
+		</Item>
+		<Item Name="Major Grid Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Major Grid Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Colors:Major Grid</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Major Grid Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Major Grid Color.vi"/>
+			<Item Name="Write Major Grid Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Major Grid Color.vi"/>
+		</Item>
+		<Item Name="Minor Grid Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Minor Grid Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Colors:Minor Grid</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Minor Grid Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Minor Grid Color.vi"/>
+			<Item Name="Write Minor Grid Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Minor Grid Color.vi"/>
+		</Item>
+		<Item Name="Font Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Font Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Colors:Text</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Font Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Font Color.vi"/>
+			<Item Name="Write Font Color.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Font Color.vi"/>
+		</Item>
+		<Item Name="Font Size" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Font Size</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Font Size</Property>
+			<Item Name="Read Font Size.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Font Size.vi"/>
+			<Item Name="Write Font Size.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Font Size.vi"/>
+		</Item>
+		<Item Name="User Events" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">User Events</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">User Events</Property>
+			<Item Name="Read User Events.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read User Events.vi"/>
+		</Item>
+		<Item Name="Band.Start" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Band.Start</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursors:Band:Start</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Band Start.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Band Start.vi"/>
+			<Item Name="Write Band Start.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Band Start.vi"/>
+		</Item>
+		<Item Name="Band.Stop" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Band.Stop</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursors:Band:Stop</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Band Stop.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Band Stop.vi"/>
+			<Item Name="Write Band Stop.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Band Stop.vi"/>
+		</Item>
+		<Item Name="Band.Ratio" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Band.Span</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str"></Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Band.Ratio</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="Read Band Ratio.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Band Ratio.vi"/>
+			<Item Name="Write Band Ratio.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Band Ratio.vi"/>
+		</Item>
+		<Item Name="Cursor Table Visible" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor Table Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Table Visible</Property>
+			<Item Name="Read Cursor Table Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Cursor Table Visible.vi"/>
+			<Item Name="Write Cursor Table Visible.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Cursor Table Visible.vi"/>
+		</Item>
+		<Item Name="Splitter Position" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Splitter Position</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Splitter Position</Property>
+			<Item Name="Read Splitter Position.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Read Splitter Position.vi"/>
+			<Item Name="Write Splitter Position.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Write Splitter Position.vi"/>
+		</Item>
+	</Item>
+	<Item Name="subVIs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Facade.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+		</Item>
+		<Item Name="Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Init.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+		</Item>
+		<Item Name="Defer Panel Updates.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Defer Panel Updates.vi"/>
+		<Item Name="UnDefer Panel Updates.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/UnDefer Panel Updates.vi"/>
+		<Item Name="Adjust Cursor Y Position to Maintain Label Placement.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Adjust Cursor Y Position to Maintain Label Placement.vi"/>
+		<Item Name="Create XControl User Events.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Create XControl User Events.vi"/>
+		<Item Name="Generate Matching User Event.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Generate Matching User Event.vi"/>
+		<Item Name="Get Cursor Values from Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Get Cursor Values from Data.vi"/>
+		<Item Name="Modify Run-Time Menu for Spectral Graph.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Modify Run-Time Menu for Spectral Graph.vi"/>
+		<Item Name="Move Set on Cursor Move.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Move Set on Cursor Move.vi"/>
+		<Item Name="Resize and Align.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Resize and Align.vi"/>
+		<Item Name="Set Active Cursor from Table.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Active Cursor from Table.vi"/>
+		<Item Name="Set Colors.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Colors.vi"/>
+		<Item Name="Set Graph Component Visibility.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Graph Component Visibility.vi"/>
+		<Item Name="Set Graph Scale Properties.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Graph Scale Properties.vi"/>
+		<Item Name="Set Table Component Visibility.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Table Component Visibility.vi"/>
+		<Item Name="Set Graph Plot Properties.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Set Graph Plot Properties.vi"/>
+		<Item Name="Update All Graph Cursor Positions.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update All Graph Cursor Positions.vi"/>
+		<Item Name="Update Control Based on Key Down.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update Control Based on Key Down.vi"/>
+		<Item Name="Update Cursors from Measurement Cursor Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update Cursors from Measurement Cursor Configuration.vi"/>
+		<Item Name="Update Graph Cursors from State.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update Graph Cursors from State.vi"/>
+		<Item Name="Update XControl Elements from State.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update XControl Elements from State.vi"/>
+		<Item Name="Update State Graph Component Visibility.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update State Graph Component Visibility.vi"/>
+		<Item Name="Update State on Cursor Move.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update State on Cursor Move.vi"/>
+		<Item Name="Update State Plot Properties.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Update State Plot Properties.vi"/>
+		<Item Name="Verify New Value is Valid X.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Verify New Value is Valid X.vi"/>
+		<Item Name="Highlight Selected Cursor in Table.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/subVIs/Highlight Selected Cursor in Table.vi"/>
+		<Item Name="Ratio to Octaves Enum.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Ratio to Octaves Enum.vi"/>
+		<Item Name="Octaves Enum to Ratio.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Properties/Octaves Enum to Ratio.vi"/>
+	</Item>
+	<Item Name="Dialogs" Type="Folder">
+		<Item Name="XControlXYGraph.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Dialogs/XControlXYGraph.rtm"/>
+		<Item Name="Configure Measurement Cursors.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Octave with Cursors/Dialogs/Configure Measurement Cursors.vi"/>
+	</Item>
+</XControl>

@@ -1,0 +1,41 @@
+
+
+<Function>
+
+<help_tag>DFMC_fir_minphase.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>fir_minphase</name>
+
+<Description>
+
+fir_minphase (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+b2 = fir_minphase(b1) 
+
+Legacy Name: firminphase 
+ 
+Description
+Calculates the minimum phase spectral factor of a linear phase, finite impulse response (FIR) filter. The resulting spectral factor is also an FIR filter whose zeroes correspond to the zeroes of the original linear phase FIR filter inside or on the unit circle.  If a zero is on the unit circle, the zero must be an even-multiplicity zero. In other words, the zero must occur an even number of times. The magnitude response of the spectral factor is the square root of that of the original FIR filter. 
+
+Inputs 
+b1 - Specifies the coefficients of a linear phase filter with a nonnegative zero-phase response. b1 is a real vector. 
+
+Outputs 
+b2 - Returns the minimum phase FIR spectral factor of b1. b2 is a real vector. 
+
+Examples
+Bmin = fir_linfconstr(12, [0, 0.4, 0.5, 1], [1, 1, 0, 0], [1, 1], 'ww', 'minphase'); 
+Bmax = mirrorh(Bmin); 
+B1 = conv(Bmin, Bmax); 
+B2 = fir_minphase(B1); 
+figure; 
+zplane(B1, 1); 
+figure; 
+zplane(B2, 1); 
+
+</Description></Function>

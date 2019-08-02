@@ -1,0 +1,79 @@
+<!---------------------------->
+<!-- Start Dashboard Header -->
+<!---------------------------->
+<div class="row mainHeader" style="margin-top:30px;">
+    <div class="col-md-12">
+    </div>
+</div>
+<!--------------------------->
+<!-- /End Dashboard Header -->
+<!--------------------------->
+<!------------------>
+<!-- Start Panels -->
+<!------------------>
+<div class="row" style="margin-top: 30px;">
+    <!---------------------------->
+    <!-- Start Camera Selection -->
+    <!---------------------------->
+    <div class="col-lg-2 col-md-3 col-sm-12">
+        <div class="panel panel-info" ng-if="cameraTrue">
+            <div class="panel-heading">Camera Selection
+            </div>
+            <div id="cameraID" class="panel-body" ng-repeat="cams in cameraInfo">
+               <button class="btn btn-default" style="float:left;" ng-model="cameraInfo[$index]['CameraName']" ng-click="updateActiveCamera($index);" data-ng-class="{'btn-success' : cameraInfo[$index]['SerialNumber'] == activeCamSerial }"><div class="fa fa-2x fa-camera"></div></button>
+               <h4 style="float:left;margin-left:10px;">{{cameraInfo[$index]['CameraName']}}</h4>
+            </div>
+        </div>
+        <div class="panel panel-info" ng-if="!cameraTrue">
+            <div class="panel-heading">Camera Selection
+            </div>
+            <div class="panel-body">
+                No cameras are present.
+            </div>
+        </div>
+    </div>
+    <!--------------------------->
+    <!-- /End Camera Selection -->
+    <!--------------------------->
+    <!------------------------>
+    <!-- Start Camera Image -->
+    <!------------------------>
+    <div class="col-lg-10 col-md-9 col-sm-12">
+        <div class="panel panel-info">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-8" id="thermoImage">
+                        <div ng-if="currentImage">
+                            <img ng-model="currentImage" src="data:image/jpg;base64,{{currentImage}}" alt="Please select a Camera"/>
+                        </div>
+                        <div ng-if="!currentImage">Please select a Camera</div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------->
+    <!-- /End Camera Image -->
+    <!----------------------->
+    <!----------------------------------->
+    <!-- Start Camera Display Settings -->
+    <!----------------------------------->
+    <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
+        <!--<fieldset class="row">-->
+
+        <!--</fieldset>-->
+    <!--</div>-->
+    <!---------------------------------->
+    <!-- /End Camera Display Settings -->
+    <!---------------------------------->
+</div>
+<!----------------->
+<!-- /End Panels -->
+<!----------------->
+
+<!--------------->
+<!-- Test Data -->
+<!--------------->
+<!--<div style="margin-top: 100px;">-->
+    <!--<p>{{displaySettings}}</p>-->
+<!--</div>-->

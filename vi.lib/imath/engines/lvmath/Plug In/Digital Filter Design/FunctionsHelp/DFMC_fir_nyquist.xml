@@ -1,0 +1,56 @@
+
+
+<Function>
+
+<help_tag>DFMC_fir_nyquist.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>fir_nyquist</name>
+
+<Description>
+
+fir_nyquist (MathScript RT Module Function)
+Owning Class: multirate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+b = fir_nyquist(n, l, rolloff) 
+b = fir_nyquist(n, l, rolloff, 'nonnegative') 
+b = fir_nyquist('minorder', l, rolloff, ripple) 
+
+Legacy Name: firnyquist 
+ 
+Description
+Designs a lowpass, finite impulse response (FIR), Nyquist filter. 
+
+Inputs 
+n - Specifies the order of the filter. This input also specifies to use the Remez method to design the filter. n is an even, positive number. If you do not specify n, you must specify a valid value for 'minorder'.  
+l - Specifies the sampling frequency conversion factor of the multirate filter. l is an integer greater than one. 
+rolloff - Specifies the roll off factor. This factor determines the relative transition bandwidth, which equals (transition band)/(2*passband + transition band). rolloff must fall in the range (0, 1). A smaller value of rolloff returns a narrower transition bandwidth if the value of l does not change. 
+'nonnegative' - Specifies that b returns an FIR filter with a nonnegative zero-phase response. If you do not specify 'nonnegative', b might return an FIR filter with negative values in the zero-phase response. 
+'minorder' - Specifies that b returns a filter with the minimum order value that meets the design requirements. This input also specifies to use the Kaiser Window method to design the FIR filter. If you do not specify 'minorder', you must specify a valid value for n. 
+ripple - Specifies the maximum ripple in the passband and stopband. ripple is a double-precision, floating-point number that must fall in the range (0, 1). 
+
+Outputs 
+b - Returns the coefficients of the designed FIR filter. b is a real vector with a length of n+1 or 'minorder'+1. 
+
+Examples
+B = fir_nyquist(20, 4, 0.1); 
+figure; 
+freqzd(B); 
+ 
+B = fir_nyquist(40, 5, 0.1, 'nonnegative'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_nyquist('minorder', 5, 0.1, 0.001); 
+figure; 
+freqzd(B); 
+
+Related Topics
+fir_linfconstr 
+fir_halfband 
+
+</Description></Function>

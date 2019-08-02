@@ -1,0 +1,4 @@
+[modGen]
+version = 7
+specifyComponent = CodeGen/niFpgaSineWaveSpecifyComponent.vi
+emitCode = CodeGen/niFpgaSineWaveEmitCode.vi

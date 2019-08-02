@@ -1,0 +1,19 @@
+
+
+<Function>
+<help_tag>DFMC_dfdt.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>MathScript RT Module functions</name>
+<Description>
+MathScript RT Module functions
+
+Use the Digital Filter Design MathScript RT Module functions to design digital filters using a text-based language. The following is a list of Digital Filter Design MathScript RT Module classes of functions and commands that LabVIEW MathScript supports.
+ 
+multirate - Multirate filter design functions 
+singlerate - Single-rate filter design functions 
+
+
+</Description>
+</Function>

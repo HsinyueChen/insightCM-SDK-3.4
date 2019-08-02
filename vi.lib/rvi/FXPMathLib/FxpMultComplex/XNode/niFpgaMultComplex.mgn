@@ -1,0 +1,5 @@
+[modGen]
+version=7
+specifyComponent = ../modGen/niFpgaHtCmulSpecifyComponent.vi
+staticVhdlComponentName = <specifyComponent>
+

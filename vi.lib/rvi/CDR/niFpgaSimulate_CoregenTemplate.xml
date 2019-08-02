@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UnitOfWork xmlns='xsdUnitOfWork' xsi:schemaLocation='xsdUnitOfWork UnitOfWork.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <OriginatingOs>Win32NT</OriginatingOs>
+  <UserVisibleString>CoreGenerator For Simulation</UserVisibleString>
+  <GlobalParameterList>
+    <Parameter>
+      <Key>family</Key>
+      <Value>familyValue</Value>
+    </Parameter>
+    <Parameter>
+      <Key>device</Key>
+      <Value>deviceValue</Value>
+    </Parameter>
+    <Parameter>
+      <Key>package</Key>
+      <Value>packageValue</Value>
+    </Parameter>
+    <Parameter>
+      <Key>speed</Key>
+      <Value>speedValue</Value>
+    </Parameter>
+  </GlobalParameterList>
+  <UowStepList>
+    <UowStep>
+      <ExecutionOrderNumber>1</ExecutionOrderNumber>
+      <StepExecutionName>CoreGenerator</StepExecutionName>
+      <OnError>Quit</OnError>
+      <ParameterList>
+        <Parameter>
+          <Key>LvFpgaCwDontUseCoreCache</Key>
+          <Value>fpgaCacheValue</Value>
+        </Parameter>
+      </ParameterList>
+    </UowStep>
+  </UowStepList>
+  <FilesToZip>
+  </FilesToZip>
+</UnitOfWork>

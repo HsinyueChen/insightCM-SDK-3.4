@@ -1,0 +1,29 @@
+
+
+<Function>
+<help_tag>DFMC_singlerate.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>singlerate</name>
+
+
+<Description>
+singlerate (MathScript RT Module Class) 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Use members of the singlerate class to design finite impulse response (FIR) or infinite impulse response (IIR) filters. 
+
+fir_linfconstr - FIR filter with constraints in frequency bands 
+fir_linf - FIR filter using minimax 
+fir_lpnorm - FIR filter using least p-th norm 
+fir_minphase - Minimum phase spectral factor of FIR filter 
+iir_comb - IIR comb filter 
+iir_grpdelay - Allpass IIR filter approximating group delay 
+iir_lpnorm - IIR filter using least p-th norm 
+iir_lpnormconstr - IIR filter with constraints using least p-th norm 
+iir_notch - Second-order IIR notch filter 
+iir_peak - Second-order IIR peak filter 
+
+</Description>
+</Function>

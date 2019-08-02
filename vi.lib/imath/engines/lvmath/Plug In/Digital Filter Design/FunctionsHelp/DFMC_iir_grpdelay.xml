@@ -1,0 +1,63 @@
+
+
+<Function>
+
+<help_tag>DFMC_iir_grpdelay.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>iir_grpdelay</name>
+
+<Description>
+
+iir_grpdelay (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+[b, a] = iir_grpdelay(n, f, e, grd) 
+[b, a] = iir_grpdelay(n, f, e, grd, w) 
+[b, a] = iir_grpdelay(n, f, e, grd, w, r) 
+[b, a, offset] = iir_grpdelay(n, f, e, grd) 
+[b, a, offset] = iir_grpdelay(n, f, e, grd, w) 
+[b, a, offset] = iir_grpdelay(n, f, e, grd, w, r) 
+
+Legacy Name: iirgrpdelay 
+ 
+Description
+Designs an allpass, infinite impulse response (IIR) filter that approximates the group delay you specify. 
+
+Inputs 
+n - Specifies the order of the filter. n is an even, positive integer. 
+f - Specifies the frequency points. f is a vector whose values increase monotonically between 0 and 1. 
+e - Specifies the band edge frequencies. e is a vector whose values must also exist in f. 
+grd - Specifies the group delay at f. grd is a vector of the same length as f. 
+w - Specifies the weight of each frequency point. w is a vector of the same length as f. The default is a vector in which each element has a value of 1. 
+r - Specifies the maximum value of the radius of any filter pole. r is a double-precision, floating-point number that must fall in the range (0, 1). The default is 0.9999. 
+
+Outputs 
+b - Returns the numerator of the designed IIR filter. b is a real vector with a length of n+1. 
+a - Returns the denominator of the designed IIR filter. a is a real vector with a length of n+1. 
+offset - Returns the group delay offset, which is the difference between the specified group delay and the approximated group delay. offset is a double-precision, floating-point number greater than zero. 
+
+Examples
+[B, A] = iir_grpdelay(10, [0, 0.4], [0, 0.4], [9, 0]); 
+figure; 
+grpdelay(B, A); 
+ 
+[B0, A0] = ellip(7, 0.1, 60, 0.5); 
+F = [0:0.4/256:0.4]; 
+Grd0 = grpdelay(B0, A0, F*pi); 
+[B, A] = iir_grpdelay(6, F, [0, 0.4], max(Grd0)-Grd0); 
+Comp_b = conv(B, B0); 
+Comp_a = conv(A, A0); 
+figure; 
+grpdelay(B0, A0); 
+figure; 
+grpdelay(Comp_b, Comp_a); 
+
+Related Topics
+iir_lpnorm 
+iir_lpnormconstr 
+
+</Description></Function>

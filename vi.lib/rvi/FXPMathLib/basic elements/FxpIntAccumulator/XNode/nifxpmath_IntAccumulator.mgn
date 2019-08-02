@@ -1,0 +1,5 @@
+[modGen]
+version=6
+modInfo        = ../modGen/nifxpmath_IntAccumulator_ModInfo.vi
+instantiation = ../modGen/nifxpmath_IntAccumulator_Instantiation.vi
+declaration = <none>

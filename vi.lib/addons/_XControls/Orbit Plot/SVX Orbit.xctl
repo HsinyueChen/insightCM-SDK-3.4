@@ -1,0 +1,467 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Displays the dynamic motion of the center of a rotating shaft on a customized XY graph.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/sndvibtk.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+=!!!*Q(C=V:1REB*"&amp;)&lt;`81QI-Q*T#]J%QH=!$,A#2`"&gt;A="!-LH#C]SZ!F&gt;Y6]!K,]!'%WSJJ?-X4&lt;PLM##"K[8&gt;0*DZ`_\XPOFO2CJN+$X2^,@;Z`;SXZZN`[8@L&gt;RZ`_$JD(]X5S&gt;^(6U&gt;_4I??:\`AH_+&lt;`*L@T+:(.PH`$P/E\\O([.@8U@OQ_&gt;8T`V&lt;_^_V`D&amp;P?_@\=.`WX0:HP[W^WOXU`O[%0XXA^_X?X?8`X[8'GKYO$PL$4&lt;IK/UME%914JH)?%DX2%TX2%TX2!TX1!TX1!TX1(&gt;X2(&gt;X2(&gt;X2$&gt;X1$&gt;X1$&gt;X13U=8ON#&amp;TKIER:.#3&gt;)E14)9&amp;#6@#5`#E`!E0.QKY5FY%J[%*_&amp;BC"+?B#@B38A3(K9JY5FY%J[%*_%B63(*UN(B38B)LY!HY!FY!J[!BZ)+?!+!I&amp;C1/%A#BA)TO!BY!J[!BUM&amp;0!&amp;0Q"0Q"$T9#HA#HI!HY!FYG&amp;*7*1J.V^(B)9U=(I@(Y8&amp;Y("Z3S_&amp;R?"Q?B]@BI:Q=(I@(A8!+/MF"E$0*'?$=/$Q/$T^S?"Q?B]@B=8CQSAZZ7:G/JOPI]"A]"I`"9`!90+31Q70Q'$Q'D]&amp;$7BE]"I`"9`!90*33Q70Q'$Q'C&amp;'5]D+3'2/.19:A]0!JJ]8+,E5BM&gt;,,KULVI+I?1.7$J8JA6!_#[A;L&lt;JTKBKAON/I#KC[-[A/L0IAKI'JBV93K!\8H?U&gt;MC1WR*J&lt;%AJA49W,548XEA@P^8LP&gt;4NPN6JP.2OPV7MPF5IP&amp;1P0Z8/0R7+023$`;=`KB888PJ8I^[',7NMXJ?.@-PLVJ:J__.L.&lt;YI:IO`B3YZ;Y)&gt;YXMQ^PG^H(`PRL$1@$V8DQ\.6LYM8A[?JFK8&gt;Y,`U,\U:&gt;[`"\NU&lt;@!=ZU=&lt;-!!!!!</Property>
+	<Property Name="NI.Lib.Lic.Feature" Type="Str">SNDVIB_Suite:17.0.0</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">Orbit Plot</Property>
+	<Property Name="NI.Lib.Locked" Type="Str">D359B749EE8B0923BD4DCA367E76D1E6</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">10.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="property nodes" Type="Folder">
+		<Item Name="X Scale" Type="Folder">
+			<Item Name="XScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the format string of the x-axis of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X FString Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X FString Read.vi"/>
+				<Item Name="svx_Orbit X FString Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X FString Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Determines the text of the x-axis scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Name Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Name Read.vi"/>
+				<Item Name="svx_Orbit X Name Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Name Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the x-axis scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Name Visible Read.vi"/>
+				<Item Name="svx_Orbit X Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Name Visible Write.vi"/>
+			</Item>
+			<Item Name="XScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the x-axis scale.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Scale Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Scale Visible Read.vi"/>
+				<Item Name="svx_Orbit X Scale Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Scale Visible Write.vi"/>
+			</Item>
+			<Item Name="XScale.MajGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the color of the major grid on the x-axis of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Major Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Major Grid Color Read.vi"/>
+				<Item Name="svx_Orbit X Major Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Major Grid Color Write.vi"/>
+			</Item>
+			<Item Name="XScale.MnrGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the color of the minor grid on the x-axis of the scale.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Minor Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Minor Grid Color Read.vi"/>
+				<Item Name="svx_Orbit X Minor Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Minor Grid Color Write.vi"/>
+			</Item>
+			<Item Name="XScale.GridStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the grid on the scale. You can select one of the following options: 0 - both the major grid color and minor grid color are set to transparent, 1 -  the minor grid color is set to transparent and only the major grid color can be set, 2 - both the major grid color control and minor grid color control can be set.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit X Grid Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Grid Style Read.vi"/>
+				<Item Name="svx_Orbit X Grid Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit X Grid Style Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Y Scale" Type="Folder">
+			<Item Name="YScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the format string of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y FString Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y FString Read.vi"/>
+				<Item Name="svx_Orbit Y FString Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y FString Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Determines the text of the y-axis scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Name Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Name Read.vi"/>
+				<Item Name="svx_Orbit Y Name Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Name Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the y-axis scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Name Visible Read.vi"/>
+				<Item Name="svx_Orbit Y Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Name Visible Write.vi"/>
+			</Item>
+			<Item Name="YScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the y-axis scale.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Scale Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Scale Visible Read.vi"/>
+				<Item Name="svx_Orbit Y Scale Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Scale Visible Write.vi"/>
+			</Item>
+			<Item Name="YScale.MajGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the color of the major grid on the y-axis of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Major Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Major Grid Color Read.vi"/>
+				<Item Name="svx_Orbit Y Major Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Major Grid Color Write.vi"/>
+			</Item>
+			<Item Name="YScale.MnrGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the color of the minor grid on the y-axis of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Minor Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Minor Grid Color Read.vi"/>
+				<Item Name="svx_Orbit Y Minor Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Minor Grid Color Write.vi"/>
+			</Item>
+			<Item Name="YScale.GridStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the grid on the scale. You can select one of the following options: 0 - both the major grid color and minor grid color are set to transparent, 1 - the minor grid color is set to transparent and only the major grid color can be set, 2 - both the major grid color control and minor grid color control can be set.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Y Grid Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Grid Style Read.vi"/>
+				<Item Name="svx_Orbit Y Grid Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Y Grid Style Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Cursor" Type="Folder">
+			<Item Name="Cursor.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Point Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that, in combination with Style, is drawn at the focal point of the cursor. Valid values are 0-16, as shown on the Cursors page of the Properties dialog box ordered from top-left to bottom-right.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Point Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Point Style Read.vi"/>
+				<Item Name="svx_Orbit Cursor Point Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Point Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Style" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that, in combination with Point Style, is drawn at the focal point of the cursor. Valid values are 0-8, from top-left to bottom-right, as shown on the Cursors page of the Properties dialog box ordered.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Style Read.vi"/>
+				<Item Name="svx_Orbit Cursor Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Line Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the width of the active cursor line. Valid values are 0-4, as shown on the Cursors page of the Properties dialog box ordered from top to bottom.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Line Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Line Width Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Line Width Read.vi"/>
+				<Item Name="svx_Orbit Cursor Line Width Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Line Width Write.vi"/>
+			</Item>
+			<Item Name="Cursor.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Line Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the line style of the active cursor. Valid values are 0-4, as shown on the Cursors page of the Properties dialog box ordered from top to bottom.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Line Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Line Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Line Style Read.vi"/>
+				<Item Name="svx_Orbit Cursor Line Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Line Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the cursor, including the point, arrow, and name of the cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Color Read.vi"/>
+				<Item Name="svx_Orbit Cursor Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Color Write.vi"/>
+			</Item>
+			<Item Name="CursorInfo.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Info: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">If TRUE, displays the cursor info in the plot area. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Info: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Name Visible Read.vi"/>
+				<Item Name="svx_Orbit Cursor Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Name Visible Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">If TRUE, shows the cursor. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Visible Read.vi"/>
+				<Item Name="svx_Orbit Cursor Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Visible Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Index" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Index</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns the array index of the point to which the cursor is snapped. This property can have a value between 0 and n - 1, where n is the number of data points.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Index</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Index Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Index Read.vi"/>
+				<Item Name="svx_Orbit Cursor Index Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Index Write.vi"/>
+			</Item>
+			<Item Name="CursorInfo.LockPos" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Info: Lock Position</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies whether the cursor info should be movable with the cursor or fixed at the bottom-left corner.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Info: Lock Position</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Lock Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Lock Read.vi"/>
+				<Item Name="svx_Orbit Cursor Lock Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Lock Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Position" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Position</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the position of cursor in terms of X-Y coordinates.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Position</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Position Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Position Read.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Plot" Type="Folder">
+			<Item Name="Plot.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Line Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the line style of the plot. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Line Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Plot Line Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Line Style Read.vi"/>
+				<Item Name="svx_Orbit Plot Line Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Line Style Write.vi"/>
+			</Item>
+			<Item Name="Plot.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Point Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the point style of the plot. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Plot Point Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Point Style Read.vi"/>
+				<Item Name="svx_Orbit Plot Point Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Point Style Write.vi"/>
+			</Item>
+			<Item Name="Plot.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Line Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the line width of the plot. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Line Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Plot Line Width Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Line Width Read.vi"/>
+				<Item Name="svx_Orbit Plot Line Width Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Line Width Write.vi"/>
+			</Item>
+			<Item Name="Plot.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the plot. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Plot Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Color Read.vi"/>
+				<Item Name="svx_Orbit Plot Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Color Write.vi"/>
+			</Item>
+			<Item Name="Plot.Fill/PtColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Fill/Point Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the point and fills. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Fill/Point Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Plot Point Fill Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Point Fill Read.vi"/>
+				<Item Name="svx_Orbit Plot Point Fill Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Plot Point Fill Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Legend" Type="Folder">
+			<Item Name="LegStrings[]" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Strings[]</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies cluster with three elements. The first BOOLEAN one is to specify whether the Orbit Plot XControl updates the Strings[] of tree legend from helper VI's input or from users customized strings; the second and third one, Row Strings[] and Column Strings[], are the array of the items from which you can select in the tree legend.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Strings[]</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Pair Strings Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Pair Strings Read.vi"/>
+				<Item Name="svx_Orbit Pair Strings Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Pair Strings Write.vi"/>
+			</Item>
+			<Item Name="LegIndex" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Index</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns an array of cluster. The first element of the cluster is the index value of parents' items. The second element of the cluster is the index value of children items.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Index</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Pair Index Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Pair Index Read.vi"/>
+				<Item Name="svx_Orbit Pair Index Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Pair Index Write.vi"/>
+			</Item>
+			<Item Name="LegVis" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Selector Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Selector Visible Read.vi"/>
+				<Item Name="svx_Orbit Selector Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Selector Visible Write.vi"/>
+			</Item>
+			<Item Name="LegBG Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Legend BG Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Legend BG Color Read.vi"/>
+				<Item Name="svx_Orbit Cursor Legend BG Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Legend BG Color Write.vi"/>
+			</Item>
+			<Item Name="LegFont Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Font Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the font color of the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Font Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Cursor Legend Font Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Legend Font Color Read.vi"/>
+				<Item Name="svx_Orbit Cursor Legend Font Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Cursor Legend Font Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Event" Type="Folder">
+			<Item Name="Scale Range Change" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Generates when you change the minimum or maximum value of the scale of the Orbit Plot XControl. The minimum or maximum value changes when the user enters a new value in a scale marker. This event is useful if you want to register user changes and then adjust the functionality of the graph. The event data is a cluster of three elements. The first and second elements of the cluster are the minimum and maximum of the scale. The last element of the cluster shows which scale range has been changed.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Event Scale Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Event Scale Read.vi"/>
+			</Item>
+			<Item Name="Cursor Release" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Cursor Release</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Generates when you releases the cursor after dragging it. This event is useful if you want to register when you finish interacting with a graph cursor. The event data is a cluster of three elements. The first and second elements of the cluster are the cursor position in terms of X-Y coordinates. The last element of the cluster is the index of the cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Cursor Release</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Event Cursor Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Event Cursor Read.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Plot Area" Type="Folder">
+			<Item Name="BG Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Colors: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the plotting area.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Colors: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit BG Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit BG Color Read.vi"/>
+				<Item Name="svx_Orbit BG Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit BG Color Write.vi"/>
+			</Item>
+			<Item Name="TriggerPointColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Colors: Trigger Point</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the trigger point, which represents the initial reference phase.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Colors: Trigger Point</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Trigger Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Trigger Color Read.vi"/>
+				<Item Name="svx_Orbit Trigger Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Trigger Color Write.vi"/>
+			</Item>
+			<Item Name="Arrow/CrosshairColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Colors: Arrow Crosshair</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of direction arrow and the center crosshair.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Colors: Arrow/Crosshair</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Arrow Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Arrow Color Read.vi"/>
+				<Item Name="svx_Orbit Arrow Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Arrow Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Scale Range" Type="Folder">
+			<Item Name="Scale.ScaleFit" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Scale Range: Scale Fit</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Scales the X axis and Y axis to fit the data. You can select one of the following 
+options: 0 - Do not Autoscale, 1 - Autoscale once, 2- Autoscale.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Scale Range: Scale Fit</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Autoscale Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Autoscale Read.vi"/>
+				<Item Name="svx_Orbit Autoscale Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Autoscale Write.vi"/>
+			</Item>
+			<Item Name="Scale.Maximum" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Scale Range: Maximum</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the maximum value of X scale and Y scale.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Scale Range: Maximum</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Orbit Axis Maximum Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Axis Maximum Read.vi"/>
+				<Item Name="svx_Orbit Axis Maximum Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Axis Maximum Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Elliptical Info" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">EllipticalInfo</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns the elliptical information. Elliptical info is read-only and is meaningful only when the plot type is filtered orbit plot.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Elliptical Info</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Orbit Elliptical Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Elliptical Read.vi"/>
+		</Item>
+		<Item Name="Precession Direcition" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Obt_Indt.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Precession Direcition</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Indicates the precession direction of the orbit plot: 0 - forward, 1 - backward.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Precession Direcition</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Orbit Precession Direction Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/property nodes/svx_Orbit Precession Direction Read.vi"/>
+		</Item>
+	</Item>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="svx_Orbit Arrow.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Arrow.vi"/>
+		<Item Name="svx_Orbit Attribute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Attribute.vi"/>
+		<Item Name="svx_Orbit Autoscale.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Autoscale.vi"/>
+		<Item Name="svx_Orbit Bounds.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Bounds.ctl"/>
+		<Item Name="svx_Orbit CheckboxToIndex.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit CheckboxToIndex.vi"/>
+		<Item Name="svx_Orbit Core States.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Core States.ctl"/>
+		<Item Name="svx_Orbit Crosshair.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Crosshair.vi"/>
+		<Item Name="svx_Orbit Cursor Name.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Cursor Name.vi"/>
+		<Item Name="svx_Orbit Data Changed.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Data Changed.vi"/>
+		<Item Name="svx_Orbit Direction.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Direction.vi"/>
+		<Item Name="svx_Orbit Exec Commands.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Exec Commands.vi"/>
+		<Item Name="svx_Orbit From FString.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit From FString.vi"/>
+		<Item Name="svx_Orbit Image.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Image.vi"/>
+		<Item Name="svx_Orbit IndexToCheckbox.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit IndexToCheckbox.vi"/>
+		<Item Name="svx_Orbit Internal State.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Internal State.ctl"/>
+		<Item Name="svx_Orbit Legend Visible.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Legend Visible.vi"/>
+		<Item Name="svx_Orbit Manage Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Manage Cluster.vi"/>
+		<Item Name="svx_Orbit Manage Grid.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Manage Grid.vi"/>
+		<Item Name="svx_Orbit Notation.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Notation.vi"/>
+		<Item Name="svx_Orbit Property Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Property Dialog.vi"/>
+		<Item Name="svx_Orbit Resize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Resize.vi"/>
+		<Item Name="svx_Orbit SC Menu.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit SC Menu.vi"/>
+		<Item Name="svx_Orbit To FString.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit To FString.vi"/>
+		<Item Name="svx_Orbit TreeInitialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit TreeInitialize.vi"/>
+		<Item Name="svx_Orbit Update Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Update Data.vi"/>
+		<Item Name="svx_Orbit Update Pair.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Update Pair.vi"/>
+		<Item Name="svx_Orbit XY Position.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit XY Position.vi"/>
+	</Item>
+	<Item Name="svx_Orbit Convert For Save.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Convert For Save.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ConvertStateForSave</Property>
+	</Item>
+	<Item Name="svx_Orbit Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="svx_Orbit Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="svx_Orbit Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="svx_Orbit State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="svx_Orbit UnInit.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Orbit Plot/subVIs/svx_Orbit UnInit.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
+	</Item>
+</XControl>
+<?sig A133C3944643825590AB13DF30768029?>

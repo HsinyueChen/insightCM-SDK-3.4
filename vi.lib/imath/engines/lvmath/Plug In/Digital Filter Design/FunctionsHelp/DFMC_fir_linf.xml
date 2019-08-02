@@ -1,0 +1,82 @@
+
+
+<Function>
+
+<help_tag>DFMC_fir_linf.html</help_tag>
+
+<help_path><helpdir>:\lvdfdttextmath.chm</help_path>
+
+<name>fir_linf</name>
+
+<Description>
+
+fir_linf (MathScript RT Module Function)
+Owning Class: singlerate 
+Requires: Digital Filter Design Toolkit and MathScript RT Module
+ 
+Syntax
+b = fir_linf(m, f, mag, ripple) 
+b = fir_linf(m, f, mag, ripple, tm) 
+b = fir_linf(n, f, mag) 
+b = fir_linf(n, f, mag, w) 
+b = fir_linf(n, f, mag, w, ftype) 
+b = fir_linf(n, f, mag, w, ftype, t) 
+
+Legacy Name: firgr 
+ 
+Description
+Designs a finite impulse response (FIR) filter using the minimax principle. The FIR filter minimizes the maximum error between the target frequency response and the designed filter frequency response. You can use this function to design the following FIR filters: types I-IV linear phase, minimum and maximum phase, ripple constraint, single-point band, exact gain control, arbitrary shape, Hilbert transformers, and differentiators. You can specify the filter order to use. This function also can calculate the minimum filter order, including the minimum odd and minimum even filter orders. 
+
+Inputs 
+m - Specifies the order of the filter. m is a string that accepts the following values: 
+ 'mineven': Specifies the minimum even order. 
+ 'minodd': Specifies the minimum odd order. 
+ 'minorder': Specifies the minimum order. 
+f - Specifies the frequency points. f is a vector whose values increase monotonically between 0 and 1. 
+mag - Specifies the magnitude response of the filter at f. mag is a vector of the same length as f. 
+ripple - Specifies the ripple of each frequency band. ripple is a vector whose length must equal length(f)/2. Every two consecutive elements in f make up one frequency band. 
+tm - Specifies the type of filter that this function creates. If you specify a value for tm, you must set m to 'minorder'. If you do not specify a value for tm, you must set m to either 'mineven' or 'minodd'. tm is a string that accepts the following values: 
+ 'type I': Designs an even-order, symmetric filter. 
+ 'type II': Designs an odd-order, symmetric filter. 
+ 'type III': Designs an even-order, antisymmetric filter. 
+ 'type IV': Designs an odd-order, antisymmetric filter. 
+n - Specifies the order of the filter. n is a nonnegative integer. 
+w - Specifies the weight of each frequency point. w is a vector of the same length as f. 
+ftype - Specifies the type of each frequency point in f. ftype is a string of the same length as f that accepts a combination of the following values: 
+ 'n': Denotes a regular frequency point. 
+ 's': Denotes a single-point band. 
+ 'e': Denotes a frequency point with an exact gain. 
+t - Specifies the type of filter that this function creates. t is a string that accepts the following values: 
+ 'hilbert': Designs a Hilbert transformer. 
+ 'differentiator': Designs a differentiator. 
+ 'minphase': Designs a minimum phase filter. 
+ 'maxphase': Designs a maximum phase filter. 
+
+Outputs 
+b - Returns the coefficients of the designed FIR filter. b is a real vector with a length of n+1 or m+1. 
+
+Examples
+B = fir_linf('mineven', [0, 0.4, 0.5, 1], [1, 1, 0, 0], [0.1, 0.02]); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linf(24, [0, 0.26, 0.3, 0.6, 0.64, 1], [0, 0, 1, 1, 0, 0], [1, 1, 1, 1, 2, 2], 'nnnnnn', 'minphase'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linf(20, [0.2, 0.8], [0.2, 0.8], [1, 1], 'nn', 'differentiator'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+ 
+B = fir_linf('minorder', [0.04, 0.9], [1, 1], [0.1], 'type III'); 
+fft_mag = abs(fft(B, 16384)); 
+figure; 
+plot(0:1/8192:1, fft_mag(1:8193)); 
+
+Related Topics
+fir_linfconstr 
+
+</Description></Function>

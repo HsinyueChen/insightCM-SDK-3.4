@@ -1,0 +1,699 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Displays results of transient analysis or order analysis on a customizable intensity graph with a rainbow color scale. You can display these 3D results using colors to represent the third dimension. You also can add frequency or order lines to indicate locations of specific frequencies or order components on the colormap.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/sndvibtk.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">Colormap.html</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!/$!!!*Q(C=T:;\;BR,%)&lt;,BQU5?AU'"Q\'WY=$MASS67!=(I.3B=IX;JR/J(!79WS^1LW#(G"B2IE@I#,FAHU#B1I/ADH@&gt;0@M2:&lt;MR)&amp;\6+/&gt;`__O_PIS+YGENC=SE6_VW]&gt;&lt;^A]?;@`&gt;:&lt;_`?\#N`9/\&gt;NGVN'5AFGU90N`?YP&gt;$'`SO7_\;R1]B*,`&amp;RFBGO_M?]*?$X3:\-XY[H3;@A=O!W_8E&gt;-P_Y?&amp;BK&gt;^OWS'5]3=H*TF`MEG?=I&gt;V@D[5_I/6\:!1&gt;PV50#=@\NX/_0[OT89X$PYB0WLIWP8MG0;/8_RB-#M2.HR-/`/&amp;.)5UR&lt;S!W?_[&lt;P#(F=_$1[*9]VV&gt;89XZ]\LED6T8,XY?(-I%N_JPRB=XF%[\@DMG',?HO_?(&lt;#\T/&gt;HQF`-4RNJJIT@ZR`0ZY/(?H%^;8]\U^O_.XW]ZI^NP`,Z=;\M@\0Z2`_#?@^]OT^N]0XP`(H\^BD;_YIPBRF+NNO*XNN7P1O2*!C#=-#)33K!\OK-\OK-\OK-&lt;OK%&lt;OK%&lt;OK&amp;(^)A?U3.[2)`ICK\ICK\ICK\I[5)8&gt;%%8&gt;"&lt;%+?Y5=J)[#:T/I)BT=XA=(I@(Y?&amp;2("[(R_&amp;R?"Q?OID$Y`!Y0![0Q]-Q=8A=(I@(Y8&amp;Y3*6)0&amp;XI]$A]J"?$R_!R?!Q?AY?39P!9!%9R)\'2"!QR4//$Q70Q'$R]&amp;)0(Y$&amp;Y$"[$"VM-(I0(Y$&amp;Y$"['J&amp;7R2$.=[0#12C)]%:Y)4Y1HQE.KC@"%?#)]%:Y)$_5EQB0BC5"%#E;3AS#21:%/E9=)4Y3(8R,BC@"%?#)]%2[MN%-RL=R!-VTI]#A]#I`#I`!I0+11B5@B58A5(I7(N+,Q+$Q+D]+D]&amp;"+&amp;"[&amp;2_&amp;21*3CF"=FG4*1[;1)#A]`[&lt;2IWC6,**KO^%:*/;B3$K#5AS8FQ%AZ#&amp;)W7-L'3&gt;E1+1MN:1'F,)S5#5O:C"2!+97F**4357[Y8R/8R!6R4JQ2J]1R-3/GQ^$@X0(GZE;OL[`F]P*3,CYOZ0T]8-\/TO4U^&amp;3/DY^F.JM*@Y48`WR58,E^'&lt;_83JMX@4_PHP\&lt;6.7CK4Z+5XW7OPISK6`NP;BH4[N[6HWP``YI^;?P5O`PP;S0XMZZ8N4\8[5Z?P'S?4.@.?__3@00"WHWPUPTHJRT9D+:T+=SH&lt;^?(+V?,Z[NHMPT?;GX_D/_'_7P^.WYN5&lt;`!`R&amp;U[]!!!!!</Property>
+	<Property Name="NI.Lib.Lic.Feature" Type="Str">SVAudio_Tlkt:17.0.0</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">Colormap</Property>
+	<Property Name="NI.Lib.Locked" Type="Str">D359B749EE8B0923BD4DCA367E76D1E6</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">10.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XCtl.OptimizeDataUpdate" Type="Bool">true</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="svx_Colormap Add Order Freq to List.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Add Order Freq to List.vi"/>
+		<Item Name="svx_Colormap Area In.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Area In.vi"/>
+		<Item Name="svx_Colormap Calculate Order Frequency from Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Calculate Order Frequency from Cursor.vi"/>
+		<Item Name="svx_Colormap Check Selection in Runtime Shortcut Menu.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Check Selection in Runtime Shortcut Menu.vi"/>
+		<Item Name="svx_Colormap Check Selection in Shortcut Menu.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Check Selection in Shortcut Menu.vi"/>
+		<Item Name="svx_Colormap Create Menu Items.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Create Menu Items.vi"/>
+		<Item Name="svx_Colormap Digit display.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Digit display.vi"/>
+		<Item Name="svx_Colormap Digit Set.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Digit Set.vi"/>
+		<Item Name="svx_Colormap Display from Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Display from Cursor.vi"/>
+		<Item Name="svx_Colormap Draw Frequency.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Draw Frequency.vi"/>
+		<Item Name="svx_Colormap Draw Indication Lines.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Draw Indication Lines.vi"/>
+		<Item Name="svx_Colormap Draw Order.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Draw Order.vi"/>
+		<Item Name="svx_Colormap Draw Top.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Draw Top.vi"/>
+		<Item Name="svx_Colormap Frequency Area In.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Frequency Area In.vi"/>
+		<Item Name="svx_Colormap Frequency In_RPM Order.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Frequency In_RPM Order.vi"/>
+		<Item Name="svx_Colormap Frequency Lines.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Frequency Lines.vi"/>
+		<Item Name="svx_Colormap Get Edit-time Menu Label.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Get Edit-time Menu Label.vi"/>
+		<Item Name="svx_Colormap Get Run-time Shortcut Menu Label.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Get Run-time Shortcut Menu Label.vi"/>
+		<Item Name="svx_Colormap Num to String.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Num to String.vi"/>
+		<Item Name="svx_Colormap Order lines.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Order lines.vi"/>
+		<Item Name="svx_Colormap Property Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Property Dialog.vi"/>
+		<Item Name="svx_Colormap Resize Pane for Scale and Cursor Legend.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Resize Pane for Scale and Cursor Legend.vi"/>
+		<Item Name="svx_Colormap Response User Shortcut Selection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Response User Shortcut Selection.vi"/>
+		<Item Name="svx_Colormap Set Axis Range.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Set Axis Range.vi"/>
+		<Item Name="svx_Colormap Text Position.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Text Position.vi"/>
+		<Item Name="svx_Colormap Text Set.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Text Set.vi"/>
+		<Item Name="svx_Colormap X Y to Map.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap X Y to Map.vi"/>
+		<Item Name="svx_Colormap Exec Commands.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Exec Commands.vi"/>
+		<Item Name="svx_Colormap ReadFromRef.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap ReadFromRef.vi"/>
+		<Item Name="svx_Colormap ReplaceState.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap ReplaceState.vi"/>
+	</Item>
+	<Item Name="Property" Type="Folder">
+		<Item Name="Cursor" Type="Folder">
+			<Item Name="Cursor.AllowDrag" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Allow Drag</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies whether you can drag the cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Allow Drag</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Allow Drag read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Allow Drag read.vi"/>
+				<Item Name="svx_Colormap Cursor Allow Drag write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Allow Drag write.vi"/>
+			</Item>
+			<Item Name="Cursor.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the cursor, including the point, arrow, and name of the cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Color read.vi"/>
+				<Item Name="svx_Colormap Cursor Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Color write.vi"/>
+			</Item>
+			<Item Name="Cursor.CursorMode" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Mode</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the way in which the cursor snaps to the plots in the plot area. You can select one of the following options: 
+0. Free. 
+1. Single-plot. 
+2. Multi-plot. 
+</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Mode</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Mode read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Mode read.vi"/>
+				<Item Name="svx_Colormap Cursor Mode write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Mode write.vi"/>
+			</Item>
+			<Item Name="Cursor.Index" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Index</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns the array index of the point to which the cursor is snapped. This property can have a value between 0 and n - 1, where n is the number of data points.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Index</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Index read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Index read.vi"/>
+				<Item Name="svx_Colormap Cursor Index write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Index write.vi"/>
+			</Item>
+			<Item Name="Cursor.Name" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Name</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the text in the plot area associated with the cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Name</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Name read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Name read.vi"/>
+				<Item Name="svx_Colormap Cursor Name write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Name write.vi"/>
+			</Item>
+			<Item Name="Cursor.NameVis" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Name Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies whether the Cursor Name is visible.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Name Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Name Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Name Visible read.vi"/>
+				<Item Name="svx_Colormap Cursor Name Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Name Visible write.vi"/>
+			</Item>
+			<Item Name="Cursor.Plot" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Plot</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the plot with which the cursor is associated. If Cursor Plot is -1, the cursor snaps to all plots in the plot area. You can move the cursor to the nearest data point along any plot in the plot area.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Plot</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Plot write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Plot write.vi"/>
+				<Item Name="svx_Colormap Cursor Plot read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Plot read.vi"/>
+			</Item>
+			<Item Name="Cursor.PlotArea" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: PlotArea</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the plot area with which the cursor is associated. This property applies only to mixed signal graphs.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Plot Area</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Plot Area read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Plot Area read.vi"/>
+				<Item Name="svx_Colormap Cursor Plot Area write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Plot Area write.vi"/>
+			</Item>
+			<Item Name="Cursor.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor PointStyle</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that LabVIEW draws, along with the Cursor Style, at the focal point of the cursor. You can choose a value from 0-16. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor PointStyle read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor PointStyle read.vi"/>
+				<Item Name="svx_Colormap Cursor PointStyle write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor PointStyle write.vi"/>
+			</Item>
+			<Item Name="Cursor.Style" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that LabVIEW draws, along with the Cursor Point Style, at the focal point of the cursor. You can choose a value from 0-8.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Style read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Style read.vi"/>
+				<Item Name="svx_Colormap Cursor Style write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Style write.vi"/>
+			</Item>
+			<Item Name="Cursor.Position" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Position</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the position of the cursor as XY coordinates.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Position</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Position read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Position read.vi"/>
+				<Item Name="svx_Colormap Cursor Position write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Position write.vi"/>
+			</Item>
+			<Item Name="Cursor.WatchAllPlots" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: WatchAllPlots</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies whether the cursor watches all plots in the plot area. If this property is FALSE, the cursor watches only the Watch Plots property specifies. The Watch All Plots property is valid only for cursors associated with multiple plots.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Watch All Plots</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor WatchAllPlots read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor WatchAllPlots read.vi"/>
+				<Item Name="svx_Colormap Cursor WatchAllPlots write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor WatchAllPlots write.vi"/>
+			</Item>
+			<Item Name="Cursor.WatchPlots" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: WatchPlots</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies an array that contains the indexes of the plots that the cursor is watching. This property is valid only when the Watch All Plots property is FALSE. The Watch Plots property also is valid only for cursors associated with multiple plots.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Watch Plots</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor WatchPlots read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor WatchPlots read.vi"/>
+				<Item Name="svx_Colormap Cursor WatchPlots write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor WatchPlots write.vi"/>
+			</Item>
+			<Item Name="Cursor.XScale" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: XScale</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the x-scale of the cursor. This property is valid only for free cursors. If the cursor is associated with a plot, that plot might overwrite this property.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: X Scale</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor X Scale read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor X Scale read.vi"/>
+				<Item Name="svx_Colormap Cursor X Scale write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor X Scale write.vi"/>
+			</Item>
+			<Item Name="Cursor.YScale" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: YScale</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the y-scale of the cursor. This property is valid only for free cursors. If the cursor is associated with a plot, that plot might overwrite this property.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Y Scale</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Y Scale read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Y Scale read.vi"/>
+				<Item Name="svx_Colormap Cursor Y Scale write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Y Scale write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Cursor Lines" Type="Folder">
+			<Item Name="FreqLines.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Line Property: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Line Property: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Line Property Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Color read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Line Property Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Color write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Show Current" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Show Current</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the frequency line from the position of the active cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Show Current</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Display from Cursor read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Display from Cursor read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Display from Cursor write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Display from Cursor write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Frequencies" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">FrequencyLine: FrequencyValue</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the frequency value for displaying the frequency lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines : Frequencies</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Frequency read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Frequency read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Frequency write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Frequency write.vi"/>
+			</Item>
+			<Item Name="FreqLines.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Line Property: Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Line Property: Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Line Property Style read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Style read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Line Property Style write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Style write.vi"/>
+			</Item>
+			<Item Name="FreqLines.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Line Property: Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the width in pixels of the pen the VI uses to draw the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Line Property: Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Line Property Width read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Width read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Line Property Width write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Width write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Text.BGColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Text Property: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the text for displaying the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Text Property: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Text Property BG Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property BG Color read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Text Property BG Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property BG Color write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Text.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Text Property: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the text for displaying the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Text Property: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Text Property Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Color read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Text Property Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Color write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Text.Size" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Frequency Lines: Text Property: Size</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the font size of the text for displaying the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Text Property: Size</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Text Property Size read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Size read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Text Property Size write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Size write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Text.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">FrequencyLine: Text Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the text of the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Text Property: Text Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Text Property Text Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Text Visible read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Text Property Text Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Text Property Text Visible write.vi"/>
+			</Item>
+			<Item Name="FreqLines.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">FrequencyLine: Line Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Frequency Lines: Line Property: Line Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Frequency Lines Line Property Line Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Line Visible read.vi"/>
+				<Item Name="svx_Colormap Frequency Lines Line Property Line Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Frequency Lines Line Property Line Visible write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">LineProperty</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Line Property: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Line Property Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Color read.vi"/>
+				<Item Name="svx_Colormap Order Lines Line Property Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Color write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Show Current" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Order Lines: Show Current</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the order line from the position of the active cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Show Current</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Display from Cursor read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Display from Cursor read.vi"/>
+				<Item Name="svx_Colormap Order Lines Display from Cursor write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Display from Cursor write.vi"/>
+			</Item>
+			<Item Name="OrderLines.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">LineProperty Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Line Property: Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Line Property Style read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Style read.vi"/>
+				<Item Name="svx_Colormap Order Lines Line Property Style write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Style write.vi"/>
+			</Item>
+			<Item Name="OrderLines.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">LineProperty: Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the width in pixels of the pen the VI uses to draw the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Line Property: Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Line Property Width read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Width read.vi"/>
+				<Item Name="svx_Colormap Order Lines Line Property Width write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Width write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Orders" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">OrderLine: OrderValue</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the order value for displaying the order lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Orders</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Order read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Order read.vi"/>
+				<Item Name="svx_Colormap Order Lines Order write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Order write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Text.BGColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">TextProperty: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the text for displaying the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Text Property: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Text Property BG Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property BG Color read.vi"/>
+				<Item Name="svx_Colormap Order Lines Text Property BG Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property BG Color write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Text.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">TextProperty</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the text for displaying the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Text Property: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Text Property Color read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Color read.vi"/>
+				<Item Name="svx_Colormap Order Lines Text Property Color write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Color write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Text.Size" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">TextProperty: Size</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the font size of the text for displaying the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Text Property: Size</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Text Property Size read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Size read.vi"/>
+				<Item Name="svx_Colormap Order Lines Text Property Size write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Size write.vi"/>
+			</Item>
+			<Item Name="OrderLines.Text.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">OrderLine: Text Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the text of the cursor lines. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Text Property: Text Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Text Property Text Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Text Visible read.vi"/>
+				<Item Name="svx_Colormap Order Lines Text Property Text Visible wirte.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Text Property Text Visible wirte.vi"/>
+			</Item>
+			<Item Name="OrderLines.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Indication Lines: Order Lines:  Line Property: Line Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the cursor lines.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Lines: Order Lines: Line Property: Line Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Order Lines Line Property Line Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Line Visible read.vi"/>
+				<Item Name="svx_Colormap Order Lines Line Property Line Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Order Lines Line Property Line Visible write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="X Scale" Type="Folder">
+			<Item Name="XScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Format to use for the numeric object.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Format String Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Format String Read.vi"/>
+				<Item Name="svx_Colormap X Scale Format String Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Format String Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Name of the x-scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Name Label Text Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Name Label Text Read.vi"/>
+				<Item Name="svx_Colormap X Scale Name Label Text Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Name Label Text Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the x-scale label on the Colormap. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Name Label Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Name Label Visible read.vi"/>
+				<Item Name="svx_Colormap X Scale Name Label Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Name Label Visible write.vi"/>
+			</Item>
+			<Item Name="XScale.Ofst&amp;Mult" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Offset and Multiplier</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays a cluster of offset (X0) and multiplier (dX) for scaling values such that the final value equals (dX)*X + X0. If you change the offset, the scale does not use 0 as the origin of the plot. This property is read only. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Offset and Multiplier</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Offset and Multiplier Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Offset and Multiplier Read.vi"/>
+			</Item>
+			<Item Name="XScale.Range" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Range</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the x-scale range using a cluster with subparameters Minimum and Maximum.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Range</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Range Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Range Read.vi"/>
+				<Item Name="svx_Colormap X Scale Range Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Range Write.vi"/>
+			</Item>
+			<Item Name="XScale.ScaleFit" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Scales the x-axis to fit the data.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Scale Fit Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Scale Fit Read.vi"/>
+				<Item Name="svx_Colormap X Scale Scale Fit Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Scale Fit Write.vi"/>
+			</Item>
+			<Item Name="XScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">X Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the x-scale on the Colormap.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap X Scale Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Visible read.vi"/>
+				<Item Name="svx_Colormap X Scale Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap X Scale Visible write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Y Scale" Type="Folder">
+			<Item Name="YScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Format to use for the numeric object.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Format String Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Format String Read.vi"/>
+				<Item Name="svx_Colormap Y Scale Format String Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Format String Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Name of the y-scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Name Label Text Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Name Label Text Read.vi"/>
+				<Item Name="svx_Colormap Y Scale Name Label Text Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Name Label Text Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the y-scale label on the Colormap. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Name Label Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Name Label Visible read.vi"/>
+				<Item Name="svx_Colormap Y Scale Name Label Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Name Label Visible write.vi"/>
+			</Item>
+			<Item Name="YScale.Ofst&amp;Mult" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Offset and Multiplier</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays a cluster of offset (Y0) and multiplier (dY) for scaling values such that the final value equals (dY)*Y + Y0. If you change the offset, the scale does not use 0 as the origin of the plot. This property is read only.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Offset and Multiplier</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Offset and Multiplier Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Offset and Multiplier Read.vi"/>
+			</Item>
+			<Item Name="YScale.Range" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Range</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the y-scale range using a cluster with subparameters Minimum and Maximum.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Range</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Range Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Range Read.vi"/>
+				<Item Name="svx_Colormap Y Scale Range Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Range Write.vi"/>
+			</Item>
+			<Item Name="YScale.ScaleFit" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Scales the y-axis to fit the data.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Scale Fit Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Scale Fit Read.vi"/>
+				<Item Name="svx_Colormap Y Scale Scale Fit Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Scale Fit Write.vi"/>
+			</Item>
+			<Item Name="YScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Y Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the y-scale on the Colormap.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Y Scale Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Visible read.vi"/>
+				<Item Name="svx_Colormap Y Scale Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Y Scale Visible write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Z Scale" Type="Folder">
+			<Item Name="ZScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Format to use for the numeric object.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Format String Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Format String Read.vi"/>
+				<Item Name="svx_Colormap Z Scale Format String Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Format String Write.vi"/>
+			</Item>
+			<Item Name="ZScale.InterpColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Interpolate Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Interpolates the color plot.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Interpolate Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Interpolate Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Interpolate Color Read.vi"/>
+				<Item Name="svx_Colormap Z Scale Interpolate Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Interpolate Color Write.vi"/>
+			</Item>
+			<Item Name="ZScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Name of the z-scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Name Label Text Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Name Label Text Read.vi"/>
+				<Item Name="svx_Colormap Z Scale Name Label Text Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Name Label Text Write.vi"/>
+			</Item>
+			<Item Name="ZScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the z-scale label on the Colormap. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Name Label Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Name Label Visible read.vi"/>
+				<Item Name="svx_Colormap Z Scale Name Label Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Name Label Visible write.vi"/>
+			</Item>
+			<Item Name="ZScale.Range" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Range</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the z-scale range using a cluster with subparameters Minimum and Maximum.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Range</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Range Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Range Read.vi"/>
+				<Item Name="svx_Colormap Z Scale Range Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Range Write.vi"/>
+			</Item>
+			<Item Name="ZScale.ScaleFit" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Scales the z-axis to fit the data.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Scale Fit</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Scale Fit Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Scale Fit Read.vi"/>
+				<Item Name="svx_Colormap Z Scale Scale Fit Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Scale Fit Write.vi"/>
+			</Item>
+			<Item Name="ZScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Z Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the z-scale on the Colormap.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Z Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Z Scale Visible read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Visible read.vi"/>
+				<Item Name="svx_Colormap Z Scale Visible write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Z Scale Visible write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Event" Type="Folder">
+			<Item Name="Scale Range Change" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns the strictly typed user event refnum that LabVIEW generates when you change the maximum or minimum values of the colormap scale. LabVIEW generates this event when you enter a new value in a scale marker. LabVIEW also generates this event when you pan or zoom the colormap. 
+
+This event is useful if you want to register graph changes and then adjust the functionality of the graph.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Scale Range Change Event read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Scale Range Change Event read.vi"/>
+			</Item>
+			<Item Name="Cursor Move" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Cursor Move</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns the strictly typed user event refnum that LabVIEW generates when you move a cursor either by clicking and dragging the cursor or by using the Cursor Movement tool. If you select and move multiple cursors, LabVIEW generates a Cursor Move event for each cursor. LabVIEW also generates this event when you enter a new value in the cursor legend.
+
+This event is useful if you want to register when you interact with the colormap cursor.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Cursor Move</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_Colormap Cursor Move Event read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Move Event read.vi"/>
+			</Item>
+		</Item>
+		<Item Name="ActCrsr" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ActCrsr</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the active cursor and properties of that cursor.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Active Cursor</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Active Cursor read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Active Cursor read.vi"/>
+			<Item Name="svx_Colormap Active Cursor write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Active Cursor write.vi"/>
+		</Item>
+		<Item Name="CrsrList" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor list</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns an array of information about all cursors. Each array element is a cluster of Cursor properties.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor List</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Cursor List read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor List read.vi"/>
+			<Item Name="svx_Colormap Cursor List write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor List write.vi"/>
+		</Item>
+		<Item Name="Cursor Legend Vis" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor Palette Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the cursor legend.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor Legend Visible</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Cursor Palette Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Palette Visible Read.vi"/>
+			<Item Name="svx_Colormap Cursor Palette Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Cursor Palette Visible Write.vi"/>
+		</Item>
+		<Item Name="IgnoreArr" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Ignore Array</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Indicates use of Color Table instead of z-scale color settings.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Ignore Array</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Ignore Array Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Ignore Array Read.vi"/>
+			<Item Name="svx_Colormap Ignore Array Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Ignore Array Write.vi"/>
+		</Item>
+		<Item Name="PaletteVis" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Palette: Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the graph palette.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Palette: Visible</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Palette Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Palette Visible Read.vi"/>
+			<Item Name="svx_Colormap Palette Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Palette Visible Write.vi"/>
+		</Item>
+		<Item Name="PlotAreaColors" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies color of the plotting area expressed in terms of (FG Color, BG Color) pair.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Color</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Plot Area Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Plot Area Color Read.vi"/>
+			<Item Name="svx_Colormap Plot Area Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Plot Area Color Write.vi"/>
+		</Item>
+		<Item Name="Scale Legend.Visible" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Scale Legend: Visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the scale legend.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Scale Legend: Visible</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Scale Legend Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Scale Legend Visible Read.vi"/>
+			<Item Name="svx_Colormap Scale Legend Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Scale Legend Visible Write.vi"/>
+		</Item>
+		<Item Name="SmoothUpdt" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Smooth Update</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Draws graph with less flicker, but slightly slower. &lt;b&gt;Mac OS&lt;/b&gt; LabVIEW ignores this property.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Smooth Update</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Smooth Update Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Smooth Update Read.vi"/>
+			<Item Name="svx_Colormap Smooth Update Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Smooth Update Write.vi"/>
+		</Item>
+		<Item Name="SelectedCrsrs" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">Colormap.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Selected Cursors</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Displays the currently-selected cursor.</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Selected Cursors</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_Colormap Selected Cursors read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Selected Cursors read.vi"/>
+			<Item Name="svx_Colormap Selected Cursors write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Properties/svx_Colormap Selected Cursors write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Method" Type="Folder">
+		<Item Name="svx_Map Coordinates to XY.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Methods/svx_Map Coordinates to XY.vi"/>
+		<Item Name="svx_Map XY to Coordinates.vi" Type="Method VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/Methods/svx_Map XY to Coordinates.vi"/>
+	</Item>
+	<Item Name="TypeDef" Type="Folder">
+		<Item Name="svx_Colormap_InnerState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/TypeDef/svx_Colormap_InnerState.ctl"/>
+		<Item Name="svx_Colormap_Event.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/TypeDef/svx_Colormap_Event.ctl"/>
+	</Item>
+	<Item Name="svx_Colormap Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="svx_Colormap State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="svx_Colormap Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="svx_Colormap Convert State For Save.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Convert State For Save.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ConvertStateForSave</Property>
+	</Item>
+	<Item Name="svx_Colormap Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="svx_Colormap Uninit.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Colormap/subVIs/svx_Colormap Uninit.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
+	</Item>
+</XControl>
+<?sig D002301467508AA1048BCA05578280D8?>

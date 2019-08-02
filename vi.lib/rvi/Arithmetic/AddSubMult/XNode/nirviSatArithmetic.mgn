@@ -1,0 +1,4 @@
+[modGen]
+version=3
+modInfo        = modGen/nirviSatArith_ModInfo.vi
+implementation = modGen/nirviSatArith_Implementation.vi

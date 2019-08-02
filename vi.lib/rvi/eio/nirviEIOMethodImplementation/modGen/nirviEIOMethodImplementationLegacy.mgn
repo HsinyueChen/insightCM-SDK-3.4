@@ -1,0 +1,8 @@
+[modGen]
+constructor    = nirviModGenConstructor___nirviEIOMethodImplementation_modGen.vi
+errorLineInfo  = nirviGetErrorLineInfo___nirviEIOMethodImplementation_modGen.vi
+declaration    = ../../nirviEIOImplementation/modGen/nirviGetDeclaration___nirviEIOImplementation_modGen.vi
+modInfo        = ../../nirviEIOImplementation/modGen/nirviGetModInfo___nirviEIOImplementation_modGen.vi 
+implementation = ../../nirviEIOImplementation/modGen/nirviGetImplementation___nirviEIOImplementation_modGen.vi
+instantiation  = ../../nirviEIOImplementation/modGen/nirviGetInstantiation___nirviEIOImplementation_modGen.vi
+destructor     = ../../nirviEIOImplementation/modGen/nirviModGenDestructor___nirviEIOImplementation_modGen.vi

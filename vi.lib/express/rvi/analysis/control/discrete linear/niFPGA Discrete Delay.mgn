@@ -1,0 +1,6 @@
+[modGen]
+version=3
+modInfo        = "modGen/niFPGA Discrete Delay_ModInfo.vi"
+implementation = "modGen/niFPGA Discrete Delay_Implementation.vi"
+errorLineInfo  = "modGen/niFPGA Discrete Delay_ErrorLineInfo.vi"
+

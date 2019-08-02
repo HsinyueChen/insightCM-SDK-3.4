@@ -1,0 +1,8 @@
+[modGen]
+version=3
+constructor	= "nirviErrorMerge_modgen.llb/nirviModGenConstructor___nirviErrorMerge_modGen.vi"
+modInfo        = "nirviErrorMerge_modgen.llb/nirviGetModInfo___nirviErrorMerge_modGen.vi"
+declaration	= "nirviErrorMerge_modgen.llb/nirviGetDeclaration___nirviErrorMerge_modGen.vi"
+instantiation = "nirviErrorMerge_modgen.llb/nirviGetInstantiation___nirviErrorMerge_modGen.vi"
+implementation = "nirviErrorMerge_modgen.llb/nirviGetImplementation___nirviErrorMerge_modGen.vi"
+destructor = "nirviErrorMerge_modgen.llb/nirviModGenDestructor___nirviErrorMerge_modGen.vi"

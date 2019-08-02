@@ -1,0 +1,4 @@
+[modGen]
+version=7
+specifyComponent = modGen\niFpgaInterruptNodeSpecifyComponent.vi
+emitCode         = modGen\niFpgaInterruptNodeEmitCode.vi

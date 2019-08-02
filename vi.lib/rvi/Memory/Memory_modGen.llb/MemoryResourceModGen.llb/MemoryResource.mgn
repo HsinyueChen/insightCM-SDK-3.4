@@ -1,0 +1,4 @@
+[modGen]
+version = 7
+specifyComponent = niFpgaMemoryResourceSpecifyComponent.vi
+emitCode = niFpgaMemoryResourceEmitCode.vi

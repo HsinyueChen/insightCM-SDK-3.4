@@ -1,0 +1,508 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Displays the averaged positions of a shaft center on a customized picture control.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/sndvibtk.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+3!!!*Q(C=T:1^DBJ"%%9`6J&lt;MQ!H:BB:T!=NVA1WY!F?I+R#;E#P5&amp;&lt;A#C5-(&amp;@A#3"MY2BO3D6]XL6VGQ#$,FEQX.4^@&gt;V7^LGZ'KOW$^%Y[8'][F+F8,H]^@E@Z_^*_G\`P[R/XC`(\N[@_QPD!KT`,0UL&lt;D`0X1_J_&amp;0]EY#D&gt;;,TLON(Y)&amp;^8WKFQ\K`O7PR$G@*(YW@L\W[MP\OQ`J/!%!\K/^S@OP\"`JTM@CX!=#_'64_W_TL@._,@&lt;KOPL/F`W2&amp;B5PYU0::99)Z:`30VC:\IC:\IC:\IA2\IA2\IA2\IDO\IDO\IDO\IBG\IBG\IBG\F,*3/,H3BS_LZ3*)HC:+A39"E-CB+,AF0QJ0Q*$S]+O&amp;*?"+?B#@B99I3HI1HY5FY%B\=F0!E0!F0QJ0Q%+K3:/XI]#1]B&amp;@!%`!%0!&amp;0Q%.+"4Q"1*!M#"Q%!50"90!1]!1]!1_0#HA#HI!HY!FY'&amp;&lt;!%`!%0!&amp;0Q).,L5J5GN,2Y3'-("[(R_&amp;R?"Q?1MPB=8A=(I@(Y3'&gt;("[(RY&amp;Q%DL"1:$DZ%RQ8BQ?BY?&lt;("[(R_&amp;R?"Q?BOI/?;V-I3E&gt;(2[$R_!R?!Q?AY=1-HA-(I0(Y$&amp;Y##O$R_!R?!Q?AY&gt;5-HA-(I0(!$'3EFZ'--02G'1)"A_`?FKM\F*5%KN&gt;;I&gt;8\6#K(4;V1[2W/.1W87UTV4:*L@BK265LFFI2V";H"KU'IZ:%T&lt;F-V*\L$NNC'WS.,&lt;%&amp;.M&gt;GW,3Y`O/*_`V?O^V/W_V7G]V'[`6;S_63C]6#]`F=M^F-U_HU^5PUC@\[1&gt;$KZJ@L`4@J]4._([7H"TQGV9\8Z^6E]M,^"`:943N3&amp;8P[AM^0@,]4Y_8/PYV[U.NTL&gt;%P$*]&amp;,1!!!!!</Property>
+	<Property Name="NI.Lib.Lic.Feature" Type="Str">SNDVIB_Suite:17.0.0</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">Shaft Centerline Plot</Property>
+	<Property Name="NI.Lib.Locked" Type="Str">D359B749EE8B0923BD4DCA367E76D1E6</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">10.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="svx_SC Line Angle Preprocess.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Angle Preprocess.vi"/>
+		<Item Name="svx_SC Line Annotation List.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Annotation List.ctl"/>
+		<Item Name="svx_SC Line Arrow.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Arrow.vi"/>
+		<Item Name="svx_SC Line Attribute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Attribute.vi"/>
+		<Item Name="svx_SC Line Autoscale.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Autoscale.vi"/>
+		<Item Name="svx_SC Line Boundary.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Boundary.vi"/>
+		<Item Name="svx_SC Line Bounds.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Bounds.ctl"/>
+		<Item Name="svx_SC Line CheckboxToIndex.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line CheckboxToIndex.vi"/>
+		<Item Name="svx_SC Line Core States.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Core States.ctl"/>
+		<Item Name="svx_SC Line Cursor Name.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Cursor Name.vi"/>
+		<Item Name="svx_SC Line Data Changed.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Data Changed.vi"/>
+		<Item Name="svx_SC Line Display Marker.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Display Marker.vi"/>
+		<Item Name="svx_SC Line Event Consumer.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Event Consumer.vi"/>
+		<Item Name="svx_SC Line From FString.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line From FString.vi"/>
+		<Item Name="svx_SC Line Image.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Image.vi"/>
+		<Item Name="svx_SC Line IndexToCheckbox.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line IndexToCheckbox.vi"/>
+		<Item Name="svx_SC Line Legend Visible.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Legend Visible.vi"/>
+		<Item Name="svx_SC Line Manage Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Manage Cluster.vi"/>
+		<Item Name="svx_SC Line Manage Grid.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Manage Grid.vi"/>
+		<Item Name="svx_SC Line Marker Position.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Marker Position.vi"/>
+		<Item Name="svx_SC Line OutState Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line OutState Queue.ctl"/>
+		<Item Name="svx_SC Line Property Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Property Dialog.vi"/>
+		<Item Name="svx_SC Line QueueToState.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line QueueToState.vi"/>
+		<Item Name="svx_SC Line Resize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Resize.vi"/>
+		<Item Name="svx_SC Line SC Menu.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line SC Menu.vi"/>
+		<Item Name="svx_SC Line Set Scale.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Set Scale.vi"/>
+		<Item Name="svx_SC Line To FString.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line To FString.vi"/>
+		<Item Name="svx_SC Line TreeInitialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line TreeInitialize.vi"/>
+		<Item Name="svx_SC Line Update Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Update Data.vi"/>
+		<Item Name="svx_SC Line Update Pair.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Update Pair.vi"/>
+	</Item>
+	<Item Name="property nodes" Type="Folder">
+		<Item Name="Clearance Boundary" Type="Folder">
+			<Item Name="Boundary.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Clearance Boundary: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of clearance boundary line.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Clearance Boundary: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Boundary Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Boundary Color Read.vi"/>
+				<Item Name="svx_SC Line Boundary Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Boundary Color Write.vi"/>
+			</Item>
+			<Item Name="Boundary.Settings" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Clearance Boundary: Settings</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies clearance boundary settings of all the N-pair input signals. The settings include start point and boundary size.</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Clearance Boundary: Settings</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Boundary Settings Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Boundary Settings Read.vi"/>
+				<Item Name="svx_SC Line Boundary Settings Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Boundary Settings Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Cursor" Type="Folder">
+			<Item Name="Cursor.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Point Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that, in combination with Style, is drawn at the focal point of the cursor. Valid values are 0-16, as shown on the Cursors page of the Properties dialog box ordered from top-left to bottom-right. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Point Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Point Style Read.vi"/>
+				<Item Name="svx_SC Line Cursor Point Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Point Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Style" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that, in combination with Point Style, is drawn at the focal point of the cursor. Valid values are 0-8, from top-left to bottom-right, as shown on the Cursors page of the Properties dialog box ordered. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Style Read.vi"/>
+				<Item Name="svx_SC Line Cursor Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Line Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the width of the line used to display the active cursor. Valid values are 0-4, as shown on Cursors page of the Properties dialog box ordered from top to bottom. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Line Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Line Width Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Line Width Read.vi"/>
+				<Item Name="svx_SC Line Cursor Line Width Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Line Width Write.vi"/>
+			</Item>
+			<Item Name="Cursor.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Line Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the line style of the active cursor. Valid values are 0-4, as shown on the Cursors page of the Properties dialog box ordered from top to bottom. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Line Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Line Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Line Style Read.vi"/>
+				<Item Name="svx_SC Line Cursor Line Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Line Style Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the active cursor, including its point, arrow, and name. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Color Read.vi"/>
+				<Item Name="svx_SC Line Cursor Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Color Write.vi"/>
+			</Item>
+			<Item Name="CursorInfo.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Info: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">If TRUE, displays the cursor info in the plot area. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Info: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Name Visible Read.vi"/>
+				<Item Name="svx_SC Line Cursor Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Name Visible Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the cursor. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Visible Read.vi"/>
+				<Item Name="svx_SC Line Cursor Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Visible Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Index" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Index</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies an array index of point to which the cursor is snapped. This property can have a value between 0 and the number of data points minus 1. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Index</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Index Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Index Read.vi"/>
+				<Item Name="svx_SC Line Cursor Index Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Index Write.vi"/>
+			</Item>
+			<Item Name="CursorInfo.LockPos" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Cursor Info: Lock Position</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies whether the cursor info is movable with the cursor or fixed at the bottom-left corner. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Cursor Info: Lock Position</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Lock Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Lock Read.vi"/>
+				<Item Name="svx_SC Line Cursor Lock Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Lock Write.vi"/>
+			</Item>
+			<Item Name="Cursor.Position" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Position</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the position of the cursor in terms of X-Y coordinates. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Position</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Position Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Position Read.vi"/>
+			</Item>
+			<Item Name="Cursor.Reference" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Cursor: Reference</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the time/speed/revolution reference value of the cursor. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Cursor: Reference</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Cursor Reference Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Cursor Reference Read.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Event" Type="Folder">
+			<Item Name="Scale Range Change" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Generates when you change the minimum or maximum value of the scale of the Timebase XControl. The minimum or maximum value changes when the user enters a new value in a scale marker. This event is useful if you want to register user changes and then adjust the functionality of the graph. The event data is a cluster of three elements. The first and second elements of the cluster are the minimum and maximum of the scale. The last element of the cluster shows which scale range has been changed. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Scale Range Change</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Event Scale Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Event Scale Read.vi"/>
+			</Item>
+			<Item Name="Cursor Release" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Event: Cursor Release</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Generates event data when you release the cursor after dragging the cursor. This event is useful if you want to register when you finish interacting with a graph cursor. The event data is a cluster of four elements. The first and second elements of the cluster are the cursor position in terms of X-Y coordinates. The third element of the cluster is the index of the cursor. The last element of the cluster is the time reference. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Event: Cursor Release</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Event Cursor Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Event Cursor Read.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Legend" Type="Folder">
+			<Item Name="LegStrings[]" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Strings[]</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns a cluster with three elements. The first BOOLEAN one is to specify whether the Shaft Centerline XControl updates the Strings[] of tree legend from helper VI's input or from users customized strings; the second and third one, Row Strings[] and Column Strings[], are the array of the items from which you can select in the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Strings[]</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Pair Strings Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Pair Strings Read.vi"/>
+				<Item Name="svx_SC Line Pair Strings Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Pair Strings Write.vi"/>
+			</Item>
+			<Item Name="LegIndex" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Index</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Returns an array of cluster. The first element of the cluster is the index value of parents' items. The second element of the cluster is the index value of children items. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Index</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Pair Index Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Pair Index Read.vi"/>
+				<Item Name="svx_SC Line Pair Index Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Pair Index Write.vi"/>
+			</Item>
+			<Item Name="LegVis" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Selector Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Selector Visible Read.vi"/>
+				<Item Name="svx_SC Line Selector Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Selector Visible Write.vi"/>
+			</Item>
+			<Item Name="LegBG Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Legend BG Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Legend BG Color Read.vi"/>
+				<Item Name="svx_SC Line Legend BG Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Legend BG Color Write.vi"/>
+			</Item>
+			<Item Name="LegFont Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend: Font Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the font color of the tree legend. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend: Font Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Legend Font Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Legend Font Color Read.vi"/>
+				<Item Name="svx_SC Line Legend Font Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Legend Font Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Marker" Type="Folder">
+			<Item Name="Marker.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Marker: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the marker. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Marker: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Marker Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Visible Read.vi"/>
+				<Item Name="svx_SC Line Marker Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Visible Write.vi"/>
+			</Item>
+			<Item Name="Marker.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Marker: Point Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the symbol that, is drawn at the focal point of the marker. Valid values are 0-16, as shown on the Plot page of the Properties dialog box ordered from top-left to bottom-right. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Marker: Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Marker Point Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Point Style Read.vi"/>
+				<Item Name="svx_SC Line Marker Point Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Point Style Write.vi"/>
+			</Item>
+			<Item Name="Marker.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Marker: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the active marker, including its point, arrow, and name. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Marker: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Marker Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Color Read.vi"/>
+				<Item Name="svx_SC Line Marker Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Marker Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Plot Area" Type="Folder">
+			<Item Name="DirectionColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Colors: Direction</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the olor of the direction. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Colors: Direction</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Direction Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Direction Color Read.vi"/>
+				<Item Name="svx_SC Line Direction Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Direction Color Write.vi"/>
+			</Item>
+			<Item Name="BG Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Area: Colors: BG Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the background color of the plotting area. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Area: Colors: BG Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line BG Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line BG Color Read.vi"/>
+				<Item Name="svx_SC Line BG Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line BG Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Plot" Type="Folder">
+			<Item Name="Plot.LineStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Line Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the Line style (0-4) as shown on Plot page of the Properties dialog box ordered from top to bottom. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Line Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Plot Line Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Line Style Read.vi"/>
+				<Item Name="svx_SC Line Plot Line Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Line Style Write.vi"/>
+			</Item>
+			<Item Name="Plot.PointStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Point Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the Point Style (0-16) as shown on the Plot page of the Properties dialog box ordered from top-left to bottom-right. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Point Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Plot Point Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Point Style Read.vi"/>
+				<Item Name="svx_SC Line Plot Point Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Point Style Write.vi"/>
+			</Item>
+			<Item Name="Plot.LineWidth" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Line Width</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the width of the plot (0-5). </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Line Width</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Plot Line Width Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Line Width Read.vi"/>
+				<Item Name="svx_SC Line Plot Line Width Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Line Width Write.vi"/>
+			</Item>
+			<Item Name="Plot.Color" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Color of the plot. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Plot Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Color Read.vi"/>
+				<Item Name="svx_SC Line Plot Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Color Write.vi"/>
+			</Item>
+			<Item Name="Plot.Fill/PtColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot: Fill/Point Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Color Specifies the color of the point and fills. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot: Fill/Point Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Plot Pointfill Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Pointfill Color Read.vi"/>
+				<Item Name="svx_SC Line Plot Pointfill Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Plot Pointfill Color Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="X Scale" Type="Folder">
+			<Item Name="XScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the format string of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X FString Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X FString Read.vi"/>
+				<Item Name="svx_SC Line X FString Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X FString Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the text as displayed in the front panel object. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Name Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Name Read.vi"/>
+				<Item Name="svx_SC Line X Name Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Name Write.vi"/>
+			</Item>
+			<Item Name="XScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Name Visible Read.vi"/>
+				<Item Name="svx_SC Line X Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Name Visible Write.vi"/>
+			</Item>
+			<Item Name="XScale.Maximum" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Range: Maximum</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the maximum value of scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Range: Maximum</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Maximum Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Maximum Read.vi"/>
+				<Item Name="svx_SC Line X Maximum Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Maximum Write.vi"/>
+			</Item>
+			<Item Name="XScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Scale Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Scale Visible Read.vi"/>
+				<Item Name="svx_SC Line X Scale Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Scale Visible Write.vi"/>
+			</Item>
+			<Item Name="XScale.MajGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the major grid on the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Major Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Major Grid Color Read.vi"/>
+				<Item Name="svx_SC Line X Major Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Major Grid Color Write.vi"/>
+			</Item>
+			<Item Name="XScale.MnrGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the minor grid on the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Minor Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Minor Grid Color Read.vi"/>
+				<Item Name="svx_SC Line X Minor Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Minor Grid Color Write.vi"/>
+			</Item>
+			<Item Name="XScale.GridStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Horizontal Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the grid on the scale. You can select one of the following options: 0 - both the major grid color and minor grid color are set to transparent, 1 - the minor grid color is set to transparent and only the major grid color can be set, 2 - both the major grid color control and minor grid color control can be set. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">X Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line X Grid Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Grid Style Read.vi"/>
+				<Item Name="svx_SC Line X Grid Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line X Grid Style Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Y Scale" Type="Folder">
+			<Item Name="YScale.FormatString" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Format String</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Sets the format string of the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Format String</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y FString Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y FString Read.vi"/>
+				<Item Name="svx_SC Line Y FString Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y FString Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Text" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the text displayed in the front panel object. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Text</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Name Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Name Read.vi"/>
+				<Item Name="svx_SC Line Y Name Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Name Write.vi"/>
+			</Item>
+			<Item Name="YScale.NameLbl.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the scale label. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Name Label: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Name Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Name Visible Read.vi"/>
+				<Item Name="svx_SC Line Y Name Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Name Visible Write.vi"/>
+			</Item>
+			<Item Name="YScale.Range" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Range</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the range of Y scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Range</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Maximum Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Maximum Read.vi"/>
+				<Item Name="svx_SC Line Y Maximum Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Maximum Write.vi"/>
+			</Item>
+			<Item Name="YScale.Visible" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Visible</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Shows the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Visible</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Scale Visible Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Scale Visible Read.vi"/>
+				<Item Name="svx_SC Line Y Scale Visible Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Scale Visible Write.vi"/>
+			</Item>
+			<Item Name="YScale.MajGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the major grid on the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Colors: Major Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Major Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Major Grid Color Read.vi"/>
+				<Item Name="svx_SC Line Y Major Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Major Grid Color Write.vi"/>
+			</Item>
+			<Item Name="YScale.MnrGrdColor" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the color of the minor grid on the scale. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Colors: Minor Color</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Minor Grid Color Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Minor Grid Color Read.vi"/>
+				<Item Name="svx_SC Line Y Minor Grid Color Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Minor Grid Color Write.vi"/>
+			</Item>
+			<Item Name="YScale.GridStyle" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Vertical Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Specifies the style of the grid on the scale. You can select one of the following options: 0 - both the major grid color and minor grid color are set to transparent, 1 - the minor grid color is set to transparent and only the major grid color can be set, 2 - both the major grid color control and minor grid color control can be set. </Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Y Scale: Grid Style</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+				<Item Name="svx_SC Line Y Grid Style Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Grid Style Read.vi"/>
+				<Item Name="svx_SC Line Y Grid Style Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line Y Grid Style Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="ScaleFit" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.HelpTag" Type="Str">OAT_Shft_CtLn.html</Property>
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Scale Fit</Property>
+			<Property Name="NI.LibItem.Prop.Localized.Description" Type="Str">Scales the X axis and Y axis to fit the data. You can select one of the following options: 0 - Do not Autoscale, 1 - Autoscale once, 2 - Autoscale. </Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Scale Fit</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="svx_SC Line ScaleFit Read.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line ScaleFit Read.vi"/>
+			<Item Name="svx_SC Line ScaleFit Write.vi" Type="Property VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/property nodes/svx_SC Line ScaleFit Write.vi"/>
+		</Item>
+	</Item>
+	<Item Name="svx_SC Line Data.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="svx_SC Line State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="svx_SC Line Facade.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="svx_SC Line Init.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="svx_SC Line Uninit.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Uninit.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
+	</Item>
+	<Item Name="svx_SC Line Convert State For Save.vi" Type="Ability VI" URL="/&lt;vilib&gt;/addons/_XControls/Shaft Centerline/subVIs/svx_SC Line Convert State For Save.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ConvertStateForSave</Property>
+	</Item>
+</XControl>
+<?sig D02230BB0BFDBBE6859327769025C3BB?>
