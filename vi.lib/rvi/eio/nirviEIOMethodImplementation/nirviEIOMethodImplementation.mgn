@@ -1,7 +1,0 @@
-[modGen]
-version  = 7
-specifyComponent  =..\nirviEIOImplementation\modGen\niFpgaSpecifyComponent_nirviEIOImplementation.vi
-emitCode = ..\nirviEIOImplementation\modGen\niFpgaEmitCode_nirviEIOImplementation.vi
-[dfir]
-specify = nirviEIOMethodImplementation_SpecifyDFIR.vi
-

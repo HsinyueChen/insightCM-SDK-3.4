@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifyComponent = Fifo_ModGen/niFpgaFifoResholderSpecifyComponent.vi
-emitCode = Fifo_ModGen/niFpgaFifoResholderEmitCode.vi

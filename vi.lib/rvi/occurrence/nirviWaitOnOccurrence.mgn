@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifycomponent = ..\..\..\resource\RVI\moduleGenerators\Occurrence\niFpgaWaitForOccurrenceSpecifyComponent.vi
-emitcode = niFpgaWaitOccurrenceTicksEmitCode.vi

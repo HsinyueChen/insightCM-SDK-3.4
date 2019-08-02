@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifyComponent = Memory_modGen.llb\niFpgaMemorySpecifyComponent.vi
-emitCode = Memory_modGen.llb\niFpgaMemoryEmitCode.vi

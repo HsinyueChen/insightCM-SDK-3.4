@@ -1,5 +1,0 @@
-[modGen]
-constructor    = modGen/nirviModGenConstructor___nirviVBlockImpl_vhdl_7100_modGen.vi
-modInfo        = modGen/nirviGetModInfo___nirviVBlockImpl_vhdl_7100_modGen.vi 
-implementation = modGen/nirviGetImplementation___nirviVBlockImpl_vhdl_7100_modGen.vi
-errorLineInfo  = modGen/nirviGetErrorLineInfo___HDLNode_modGen.vi

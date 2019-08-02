@@ -1,7 +1,0 @@
-[modGen]
-version                 = 7
-StaticVhdlComponentName = <specifyComponent>
-specifyComponent        = modGen/niFpgaSpecifyXDataNode.vi
-
-[dfir]
-specify = modGen/DFIR/niFpgaXDataNode-Specify.vi

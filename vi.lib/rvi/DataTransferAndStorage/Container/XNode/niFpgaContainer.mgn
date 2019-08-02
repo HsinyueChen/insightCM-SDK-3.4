@@ -1,5 +1,0 @@
-[chooseModGen]
-chooseModGen = ../ModGen/niFpgaContainerChooseModGenSection.vi
-
-[dfir]
-specify = ../ModGen/niFpgaContainerSpecifyDFIR.vi

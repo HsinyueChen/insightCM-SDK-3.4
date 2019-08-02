@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifyComponent        = modGen/niFpgaGetTickCountModGenSpecifyComponent.vi
-staticVhdlComponentName = NiFpgaGetTickCount

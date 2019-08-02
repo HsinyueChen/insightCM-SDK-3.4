@@ -1,5 +1,0 @@
-[modGen]
-version=6
-modInfo        = ../modGen/nifxpmath_SinhAndCosh_ModInfo.vi
-instantiation  = ../modGen/nifxpmath_SinhAndCosh_Instantiation.vi
-declaration    = <none>

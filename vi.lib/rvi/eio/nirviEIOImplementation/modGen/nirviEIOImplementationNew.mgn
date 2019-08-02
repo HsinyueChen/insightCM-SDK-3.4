@@ -1,4 +1,0 @@
-[modGen]
-version  = 7
-specifyComponent  = niFpgaSpecifyComponent_nirviEIOImplementation.vi
-emitCode = niFpgaEmitCode_nirviEIOImplementation.vi

@@ -1,4 +1,0 @@
-[modGen]
-version=7
-specifyComponent  = ../modGen/nifxpmath_Multiplier_ModInfo.vi
-emitCode          = ../modGen/nifxpmath_Multiplier_EmitCode.vi

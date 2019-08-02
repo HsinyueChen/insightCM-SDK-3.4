@@ -1,4 +1,0 @@
-[modGen]
-version=7
-specifyComponent	= niFpgaSharedVariableNode_specifyComponent.vi
-emitCode	= niFpgaSharedVariableNode_emitCode.vi

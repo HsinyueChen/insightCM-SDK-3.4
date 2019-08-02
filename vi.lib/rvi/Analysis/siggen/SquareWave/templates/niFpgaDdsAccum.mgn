@@ -1,5 +1,0 @@
-[modGen]
-version        = 6
-modInfo        = ModGen/niFpgaGetModInfo.vi 
-instantiation  = ModGen/niFpgaGetInstantiation.vi
-declaration    = ModGen/niFpgaGetDeclaration.vi

@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifyComponent = niFpgaHandshakeResholderSpecifyComponent.vi
-emitCode = niFpgaHandshakeResholderEmitCode.vi

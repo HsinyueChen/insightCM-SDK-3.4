@@ -1,4 +1,0 @@
-[modGen]
-version = 7
-specifyComponent = ../modGen/nifxpmath_Div_SpecifyComponent.vi
-emitCode = ../modGen/nifxpmath_Div_EmitCode.vi

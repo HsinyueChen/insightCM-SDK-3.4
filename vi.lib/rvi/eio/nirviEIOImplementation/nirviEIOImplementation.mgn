@@ -1,5 +1,0 @@
-[modGen]
-version  = 7
-specifyComponent  = modGen\niFpgaSpecifyComponent_nirviEIOImplementation.vi
-emitCode = modGen\niFpgaEmitCode_nirviEIOImplementation.vi
-simulationSignals = modGen\niFpgaEIOSimSigs.vi

@@ -1,5 +1,0 @@
-[modGen]
-version = 7
-
-[dfir]
-emit = ../modGen/niFpgaBwEmitDFIR.vi

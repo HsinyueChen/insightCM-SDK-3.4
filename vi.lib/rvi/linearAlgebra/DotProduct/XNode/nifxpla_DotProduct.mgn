@@ -1,4 +1,0 @@
-[modGen]
-version=7
-specifyComponent = ../modGen/nifxpla_DotProductSpecifyComponent.vi
-emitCode         = ../modGen/nifxpla_DotProductEmitCode.vi

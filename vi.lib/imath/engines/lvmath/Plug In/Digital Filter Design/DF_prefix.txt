@@ -1,4 +1,0 @@
-<Prefix>dfd</Prefix>
-<LegacyPrefixes>df	dft	dfdt</LegacyPrefixes>
-<String>You also installed the Digital Filter Design Toolkit. Enter 'help dfd classes' to access help for the Digital Filter Design MathScript functions. </String>
-<Name>Digital Filter Design Toolkit</Name>

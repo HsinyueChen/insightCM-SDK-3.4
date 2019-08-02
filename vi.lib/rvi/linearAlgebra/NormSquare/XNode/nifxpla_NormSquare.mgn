@@ -1,4 +1,0 @@
-[modGen]
-version=7
-specifyComponent = ../modGen/nifxpla_NormSquareSpecifyComponent.vi
-emitCode         = ../modGen/nifxpla_NormSquareEmitCode.vi

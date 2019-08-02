@@ -1,5 +1,0 @@
-[modGen]
-version=7
-specifyComponent = modGen/niFpgaWaitModGenSpecifyComponent.vi
-staticVhdlComponentName = <specifyComponent>
-

@@ -1,5 +1,0 @@
-[modGen]
-version = 8
-
-[dfir]
-emit = ../modGen/niFpgaFFTEmitDFIR.vi
