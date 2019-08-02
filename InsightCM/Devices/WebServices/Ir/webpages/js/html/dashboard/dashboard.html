@@ -1,0 +1,115 @@
+<!---------------------------------->
+<!-- Start Dashboard MAIN UI-VIEW -->
+<!---------------------------------->
+<fieldset id="configPanel" ng-hide="loading">
+    <!--&lt;!&ndash;----------------------------&ndash;&gt;-->
+    <!--&lt;!&ndash; Start Dashboard Sys Status &ndash;&gt;-->
+    <!--&lt;!&ndash;----------------------------&ndash;&gt;-->
+    <!--<div class="container-fluid">-->
+        <!--<div class="row">-->
+            <!--&lt;!&ndash;<div class="microcharts pull-right">&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; Start CPU0 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-3 col-sm-3 noPadding">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="chart" easypiechart percent="cpuPercent" options="barOptions">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="pieLabel">CPU <br/>Usage</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="percent percentSpan" ng-bind="cpuPercent">{{cpuPercent}}</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; /End CPU1 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------&ndash;&gt;&ndash;&gt;-->
+
+                <!--&lt;!&ndash;&lt;!&ndash;------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; Start CPU1 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-3 col-sm-3 noPadding">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="chart" easypiechart percent="availMemory" options="barOptions">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="pieLabel">Available <br/>Memory</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="percent percentSpan" ng-bind="availMemory">{{availMemory}}</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; /End CPU2 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------&ndash;&gt;&ndash;&gt;-->
+
+                <!--&lt;!&ndash;&lt;!&ndash;------------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; Start Disk Usage &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;------------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-3 col-sm-3 noPadding">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="chart" easypiechart percent="driveSpace" options="barOptions">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="pieLabel">Available <br/>Space</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="percent percentSpan" ng-bind="driveSpace">{{driveSpace}}</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; /End Disk Usage &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-----------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;--------------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; Start Chassis Temp &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;--------------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-md-3 col-sm-3 noPadding">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="chart" easypiechart percent="chassisTemp" options="barOptions">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="pieLabel">Chassis <br/>Temperature</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="percent percentSpan" ng-bind="chassisTemp">{{chassisTemp}}</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-------------------&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; /End Chassis Temp &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;-------------------&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--</div>-->
+    <!--</div>-->
+    <!------------------------------->
+    <!-- /End Dashboard Sys Status -->
+    <!------------------------------->
+
+    <!-------------------------------------->
+    <!-- Start Dashboard Tabbed Container -->
+    <!-------------------------------------->
+    <div class="container-fluid">
+        <!------------------------>
+        <!-- Start Tabbed Panel -->
+        <!------------------------>
+        <div class="row">
+            <!--------------------------------------------------->
+            <!-- Panel Body -- Start Dashboard PARTIAL UI-VIEW -->
+            <!--------------------------------------------------->
+            <div ui-view=></div>
+            <!-------------------------------------------------->
+            <!-- Panel Body -- /End Dashboard PARTIAL UI-VIEW -->
+            <!-------------------------------------------------->
+        </div>
+    </div>
+</fieldset>
+<!--------------------------------->
+<!-- /End Dashboard MAIN UI-VIEW -->
+<!--------------------------------->
+<!--------------------------------->
+<!-- Start Connection Lost Modal -->
+<!--------------------------------->
+<div class="modal fade" id="connectionModal" tabindex="-1" role="dialog" aria-labelledby="connectionModalLabel" aria-hidden="true" style="text-align:center;margin-top:200px;" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!------------------------------------->
+            <!-- Connection Lost Modal -- Header -->
+            <!------------------------------------->
+            <div class="modal-header">
+                <h4> Connection to PMU lost, attempting to reconnect. </h4>
+            </div>
+            <!--------------------------------------------------->
+            <!-- Connection Lost Modal -- Body -- Progress Bar -->
+            <!--------------------------------------------------->
+            <div class="modal-body">
+                <div class="progress progress-striped active">
+                    <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------->
+<!-- /End Connection Lost Modal -->
+<!-------------------------------->
