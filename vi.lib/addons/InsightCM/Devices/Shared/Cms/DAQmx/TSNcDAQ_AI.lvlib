@@ -8,7 +8,11 @@
 
 </Property>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="AcquireWaveforms.vi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/AcquireWaveforms.vi.vi"/>
 		<Item Name="Get Module Onfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/Get Module Onfo.vi"/>
+		<Item Name="InitializeAIchannel.vi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/InitializeAIchannel.vi.vi"/>
+		<Item Name="InitializeDAQmxAcquisition.vi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/InitializeDAQmxAcquisition.vi.vi"/>
+		<Item Name="resample 200Hz.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/resample 200Hz.vi"/>
 		<Item Name="Sort DAQ chassis with IP.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/Sort DAQ chassis with IP.vi"/>
 	</Item>
 </Library>
