@@ -15,8 +15,8 @@
 	<Item Name="main" Type="Folder">
 		<Item Name="cRIO Backplane Info.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/main/cRIO Backplane Info.vi"/>
 		<Item Name="cRIO Controller Info.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/main/cRIO Controller Info.vi"/>
-		<Item Name="cRIO Module Info.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/main/cRIO Module Info.vi"/>
 		<Item Name="cRIO System Info.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/main/cRIO System Info.vi"/>
+		<Item Name="cRIOModuleInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/main/cRIOModuleInfo.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="cRIO Open Module Detect_9068.vi" Type="VI" URL="/&lt;vilib&gt;/addons/cRIODetectHW/subVIs/cRIO Open Module Detect_9068.vi"/>
