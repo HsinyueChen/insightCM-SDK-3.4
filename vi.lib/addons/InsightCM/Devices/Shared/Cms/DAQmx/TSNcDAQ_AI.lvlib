@@ -8,7 +8,7 @@
 
 </Property>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Get Module Onfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/Get Module Onfo.vi"/>
+		<Item Name="GetModuleInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/GetModuleInfo.vi"/>
 		<Item Name="Sort DAQ chassis with IP.vi" Type="VI" URL="/&lt;vilib&gt;/addons/InsightCM/Devices/Shared/Cms/DAQmx/subVIs/Sort DAQ chassis with IP.vi"/>
 	</Item>
 </Library>
